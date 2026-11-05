@@ -1,5 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-* text=auto
-*.sh text eol=lf
-*.py text eol=lf
+# Store and check out all text files with LF line endings
+* text=auto eol=lf
+
+# Windows-only scripts keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files: never touch
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.parquet binary
+*.docx binary
+*.pptx binary
