@@ -1,0 +1,25 @@
+# Put this file at the repository root (DUC/.gitignore).
+# Patterns without a leading slash apply in every subfolder.
+
+# Data: always re-downloadable, far too large for Git
+data/
+
+# Environments
+.venv/
+.venv-*/
+
+# Generated files
+sample_run/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large run outputs (keep small metric files, drop checkpoints and big logs)
+results/**/checkpoints/
+*.log
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

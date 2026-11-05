@@ -1,0 +1,59 @@
+# DRAFT label map. Matching is case-insensitive. Start from Zehtabian et al. (2021), Table I, with cooking split out of chores.
+# Shared labels: rest, personal_hygiene, eat, drink, cook, chores, relax, social, work, leave_home, enter_home, other, exclude
+# 'other' = labelled but not a target activity. 'exclude' = drop these events. Edit freely; record each decision in the audit report.
+raw_label,shared_label,note
+Sleep,rest,
+Sleeping,rest,Aruba name
+Nap,rest,
+Sleep_Out_Of_Bed,rest,
+Bed_Toilet_Transition,other,Zehtabian: not tracked. Alternative: personal_hygiene
+Bed_to_Toilet,other,Aruba/Milan name; same decision as Bed_Toilet_Transition
+Toilet,personal_hygiene,
+Personal_Hygiene,personal_hygiene,
+Bathe,personal_hygiene,
+Groom,personal_hygiene,
+Dress,personal_hygiene,
+Take_Medicine,personal_hygiene,
+Morning_Meds,personal_hygiene,
+Evening_Meds,personal_hygiene,
+Eve_Meds,personal_hygiene,Milan name
+Exercise,personal_hygiene,Zehtabian groups it under health and hygiene; check it is not too rare
+Master_Bathroom,personal_hygiene,Milan; location-style label
+Guest_Bathroom,personal_hygiene,Milan; location-style label
+Eat,eat,
+Eat_Breakfast,eat,
+Eat_Lunch,eat,
+Eat_Dinner,eat,
+Eating,eat,Aruba name
+Dining_Rm_Activity,eat,"Milan; location-style label, check"
+Drink,drink,Merge into eat if too rare
+Cook,cook,Split out of Zehtabian's chores: distinctive kitchen pattern
+Cook_Breakfast,cook,
+Cook_Lunch,cook,
+Cook_Dinner,cook,
+Meal_Preparation,cook,Aruba name
+Kitchen_Activity,cook,"Milan; broad label, check"
+Wash_Dishes,chores,
+Wash_Breakfast_Dishes,chores,
+Wash_Lunch_Dishes,chores,
+Wash_Dinner_Dishes,chores,
+Laundry,chores,
+Housekeeping,chores,Aruba name
+Chores,chores,Milan name
+Relax,relax,
+Watch_TV,relax,
+Read,relax,
+Meditate,relax,Milan
+Phone,social,
+Entertain_Guests,social,
+Work,work,
+Work_At_Table,work,
+Work_At_Desk,work,
+Work_On_Computer,work,
+Desk_Activity,work,Milan name
+Leave_Home,leave_home,
+Enter_Home,enter_home,
+Step_Out,other,Zehtabian: not tracked
+Other_Activity,other,
+Master_Bedroom_Activity,other,Milan; ambiguous (could be sleep or dress)
+Respirate,exclude,Aruba only and rare

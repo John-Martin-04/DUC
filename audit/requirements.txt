@@ -1,0 +1,5 @@
+# Audit scripts. Pinned so they can share one environment with
+# TensorFlow Federated 0.87.0, which needs NumPy 1.x (NumPy 2 breaks TF 2.14).
+numpy==1.25.2
+pandas>=2.0,<2.3
+pyarrow>=14,<18

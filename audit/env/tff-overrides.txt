@@ -1,0 +1,4 @@
+# TFF 0.87.0 pins jax/jaxlib 0.4.14, which are no longer on PyPI.
+# 0.4.18 is the oldest version still there; tested with TFF 0.87.0 + TF 2.14.1.
+jax==0.4.18
+jaxlib==0.4.18
