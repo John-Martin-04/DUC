@@ -1,0 +1,2 @@
+# DUC
+The DUC project 
