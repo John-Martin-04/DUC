@@ -1,0 +1,1384 @@
+home,sensor,sensor_type,loc1,loc2,n_events,room,keep,note
+csh101,D001,door,Ignore,Ignore,18,,no,excluded: non-movement type or CASAS Ignore
+csh101,D002,door,OutsideDoor,FrontDoor,1229,OutsideDoor,yes,
+csh101,LS001,light_sensor,Ignore,Ignore,4991,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS002,light_sensor,Ignore,Ignore,4277,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS003,light_sensor,Ignore,Ignore,6240,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS004,light_sensor,Ignore,Ignore,3810,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS005,light_sensor,Ignore,Ignore,4814,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS006,light_sensor,Ignore,Ignore,2491,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS007,light_sensor,Ignore,Ignore,243,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS008,light_sensor,Ignore,Ignore,11172,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS009,light_sensor,Ignore,Ignore,5768,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS010,light_sensor,Ignore,Ignore,4002,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS011,light_sensor,Ignore,Ignore,4463,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS012,light_sensor,Ignore,Ignore,7071,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS013,light_sensor,Ignore,Ignore,5981,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS014,light_sensor,Ignore,Ignore,7407,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS015,light_sensor,Ignore,Ignore,11831,,no,excluded: non-movement type or CASAS Ignore
+csh101,LS016,light_sensor,Ignore,Ignore,7776,,no,excluded: non-movement type or CASAS Ignore
+csh101,M001,motion,OutsideDoor,Entry,6200,OutsideDoor,yes,
+csh101,M002,motion,Kitchen,Kitchen,7482,Kitchen,yes,
+csh101,M003,motion,Kitchen,Kitchen,17476,Kitchen,yes,
+csh101,M004,motion,DiningRoom,DiningRoom,3346,DiningRoom,yes,
+csh101,M005,motion,LivingRoom,LivingRoom,3927,LivingRoom,yes,
+csh101,M006,motion,Kitchen,Refrigerator,3531,Kitchen,yes,
+csh101,M007,motion,Kitchen,Freezer,532,Kitchen,yes,
+csh101,M008,motion,LivingRoom,Chair,63754,LivingRoom,yes,
+csh101,M009,motion,Bedroom,Bedroom,8964,Bedroom,yes,
+csh101,M010,motion,LivingRoom,Hall,4600,LivingRoom,yes,
+csh101,M011,motion,Bedroom,Hall,3884,Bedroom,yes,
+csh101,M012,motion,Bedroom,Bed,18046,Bedroom,yes,
+csh101,MA013,motion_area,LivingRoom,LivingRoom,9817,LivingRoom,yes,
+csh101,MA014,motion_area,Bedroom,Bedroom,19092,Bedroom,yes,
+csh101,MA015,motion_area,Bathroom,Bathroom,36090,Bathroom,yes,
+csh101,MA016,motion_area,Kitchen,Kitchen,14888,Kitchen,yes,
+csh101,T101,temperature,Ignore,Ignore,1696,,no,excluded: non-movement type or CASAS Ignore
+csh101,T102,temperature,Ignore,FrontDoorTemp,251,,no,excluded: non-movement type or CASAS Ignore
+csh101,T103,temperature,Ignore,BathroomTemp,561,,no,excluded: non-movement type or CASAS Ignore
+csh101,T104,temperature,Ignore,LivingRoomTemp,1839,,no,excluded: non-movement type or CASAS Ignore
+csh101,T105,temperature,Ignore,LivingRoomTemp,1897,,no,excluded: non-movement type or CASAS Ignore
+csh102,D001,door,Ignore,Ignore,1,,no,excluded: non-movement type or CASAS Ignore
+csh102,D002,door,OutsideDoor,FrontDoor,842,OutsideDoor,yes,
+csh102,D003,door,Bathroom,BathroomDoor,14,Bathroom,yes,
+csh102,D005,door,Kitchen,Refrigerator,1646,Kitchen,yes,
+csh102,D006,door,Kitchen,Freezer,118,Kitchen,yes,
+csh102,L001,light,OutsideDoor,FrontDoor,141,OutsideDoor,yes,
+csh102,L002,light,Bathroom,Bathroom,210,Bathroom,yes,
+csh102,L003,light,Bathroom,Bathroom,750,Bathroom,yes,
+csh102,L004,light,WorkArea,Office,140,WorkArea,yes,
+csh102,L005,light,Bedroom,Bedroom,298,Bedroom,yes,
+csh102,LS001,light_sensor,Ignore,Ignore,3940,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS002,light_sensor,Ignore,Ignore,4042,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS003,light_sensor,Ignore,Ignore,7561,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS004,light_sensor,Ignore,Ignore,5525,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS005,light_sensor,Ignore,Ignore,6537,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS006,light_sensor,Ignore,Ignore,6111,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS007,light_sensor,Ignore,Ignore,7048,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS008,light_sensor,Ignore,Ignore,8683,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS009,light_sensor,Ignore,Ignore,1562,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS010,light_sensor,Ignore,Ignore,4919,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS011,light_sensor,Ignore,Ignore,3727,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS012,light_sensor,Ignore,Ignore,3343,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS013,light_sensor,Ignore,Ignore,23039,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS014,light_sensor,Ignore,Ignore,5675,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS015,light_sensor,Ignore,Ignore,3772,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS016,light_sensor,Ignore,Ignore,3872,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS017,light_sensor,Ignore,Ignore,4086,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS018,light_sensor,Ignore,Ignore,4107,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS019,light_sensor,Ignore,Ignore,2815,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS020,light_sensor,Ignore,Ignore,7118,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS021,light_sensor,Ignore,Ignore,3181,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS022,light_sensor,Ignore,Ignore,2984,,no,excluded: non-movement type or CASAS Ignore
+csh102,LS023,light_sensor,Ignore,Ignore,949,,no,excluded: non-movement type or CASAS Ignore
+csh102,M001,motion,OutsideDoor,Entry,2670,OutsideDoor,yes,
+csh102,M002,motion,LivingRoom,FrontDoor,2928,LivingRoom,yes,
+csh102,M004,motion,LivingRoom,Chair,12314,LivingRoom,yes,
+csh102,M005,motion,DiningRoom,DiningRoom,18326,DiningRoom,yes,
+csh102,M006,motion,LivingRoom,LivingRoom,9492,LivingRoom,yes,
+csh102,M007,motion,Kitchen,Kitchen,24922,Kitchen,yes,
+csh102,M008,motion,Kitchen,Kitchen,35110,Kitchen,yes,
+csh102,M011,motion,LivingRoom,Hall,3048,LivingRoom,yes,
+csh102,M012,motion,WorkArea,Hall,3058,WorkArea,yes,
+csh102,M015,motion,WorkArea,WorkArea,2028,WorkArea,yes,
+csh102,M016,motion,WorkArea,Office,2836,WorkArea,yes,
+csh102,M017,motion,WorkArea,Hall,4290,WorkArea,yes,
+csh102,M018,motion,Bedroom,Hall,7708,Bedroom,yes,
+csh102,M019,motion,Bedroom,Bedroom,10644,Bedroom,yes,
+csh102,M021,motion,Bedroom,Bed,8258,Bedroom,yes,
+csh102,M022,motion,Bedroom,Bedroom,1926,Bedroom,yes,
+csh102,MA003,motion_area,LivingRoom,LivingRoom,13307,LivingRoom,yes,
+csh102,MA009,motion_area,Bathroom,Bathroom,4138,Bathroom,yes,
+csh102,MA010,motion_area,LivingRoom,LivingRoom,4840,LivingRoom,yes,
+csh102,MA013,motion_area,Bathroom,Bathroom,61352,Bathroom,yes,
+csh102,MA014,motion_area,WorkArea,Office,10318,WorkArea,yes,
+csh102,MA020,motion_area,Bedroom,Bedroom,31574,Bedroom,yes,
+csh102,MA023,motion_area,Bedroom,Closet,2554,Bedroom,yes,
+csh102,T101,temperature,Ignore,Ignore,123,,no,excluded: non-movement type or CASAS Ignore
+csh102,T102,temperature,Ignore,FrontDoorTemp,137,,no,excluded: non-movement type or CASAS Ignore
+csh102,T103,temperature,Ignore,BathroomTemp,109,,no,excluded: non-movement type or CASAS Ignore
+csh102,T104,temperature,Ignore,BathroomTemp,357,,no,excluded: non-movement type or CASAS Ignore
+csh102,T105,temperature,Ignore,KitchenTemp,387,,no,excluded: non-movement type or CASAS Ignore
+csh103,D001,door,Ignore,Ignore,3,,no,excluded: non-movement type or CASAS Ignore
+csh103,D002,door,OutsideDoor,FrontDoor,832,OutsideDoor,yes,
+csh103,L001,light,Bathroom,Bathroom,46,Bathroom,yes,
+csh103,L004,light,WorkArea,WorkArea,8,WorkArea,yes,
+csh103,L005,light,Kitchen,Kitchen,282,Kitchen,yes,
+csh103,LS001,light_sensor,Ignore,Ignore,3803,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS002,light_sensor,Ignore,Ignore,4169,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS003,light_sensor,Ignore,Ignore,6346,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS004,light_sensor,Ignore,Ignore,6148,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS005,light_sensor,Ignore,Ignore,4398,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS006,light_sensor,Ignore,Ignore,11048,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS007,light_sensor,Ignore,Ignore,8115,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS008,light_sensor,Ignore,Ignore,807,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS009,light_sensor,Ignore,Ignore,4912,,no,excluded: non-movement type or CASAS Ignore
+csh103,LS010,light_sensor,Ignore,Ignore,1277,,no,excluded: non-movement type or CASAS Ignore
+csh103,M001,motion,OutsideDoor,Entry,2344,OutsideDoor,yes,
+csh103,M002,motion,OutsideDoor,Hall,1752,OutsideDoor,yes,
+csh103,M005,motion,WorkArea,WorkArea,5273,WorkArea,yes,
+csh103,MA003,motion_area,LivingRoom,LivingRoom,6983,LivingRoom,yes,
+csh103,MA004,motion_area,Chair,LivingRoom,5853,Chair,yes,
+csh103,MA006,motion_area,Kitchen,Kitchen,37321,Kitchen,yes,
+csh103,MA007,motion_area,LivingRoom,Hall,18430,LivingRoom,yes,
+csh103,MA008,motion_area,Bathroom,Bathroom,26242,Bathroom,yes,
+csh103,MA009,motion_area,Bedroom,Bedroom,7056,Bedroom,yes,
+csh103,MA010,motion_area,Bedroom,Closet,52,Bedroom,yes,
+csh103,T101,temperature,Ignore,Ignore,1030,,no,excluded: non-movement type or CASAS Ignore
+csh103,T102,temperature,Ignore,FrontDoorTemp,149,,no,excluded: non-movement type or CASAS Ignore
+csh103,T103,temperature,Ignore,BathroomTemp,159,,no,excluded: non-movement type or CASAS Ignore
+csh104,D001,door,Ignore,Ignore,6,,no,excluded: non-movement type or CASAS Ignore
+csh104,D002,door,OutsideDoor,FrontDoor,1060,OutsideDoor,yes,
+csh104,D003,door,Bathroom,BathroomDoor,58,Bathroom,yes,
+csh104,D004,door,Bathroom,BathroomDoor,112,Bathroom,yes,
+csh104,D005,door,Kitchen,Refrigerator,2832,Kitchen,yes,
+csh104,D006,door,Kitchen,Freezer,380,Kitchen,yes,
+csh104,L001,light,OutsideDoor,FrontDoor,102,OutsideDoor,yes,
+csh104,L002,light,LivingRoom,LivingRoom,49,LivingRoom,yes,
+csh104,L003,light,Bathroom,Bathroom,66,Bathroom,yes,
+csh104,L004,light,LivingRoom,LivingRoom,13,LivingRoom,yes,
+csh104,L005,light,Bedroom,Closet,146,Bedroom,yes,
+csh104,L006,light,WorkArea,Closet,170,WorkArea,yes,
+csh104,LS001,light_sensor,Ignore,Ignore,3230,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS002,light_sensor,Ignore,Ignore,3377,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS003,light_sensor,Ignore,Ignore,6611,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS004,light_sensor,Ignore,Ignore,4108,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS005,light_sensor,Ignore,Ignore,3758,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS006,light_sensor,Ignore,Ignore,3798,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS007,light_sensor,Ignore,Ignore,4044,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS008,light_sensor,Ignore,Ignore,2884,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS009,light_sensor,Ignore,Ignore,979,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS010,light_sensor,Ignore,Ignore,2586,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS011,light_sensor,Ignore,Ignore,4167,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS012,light_sensor,Ignore,Ignore,5468,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS013,light_sensor,Ignore,Ignore,3506,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS014,light_sensor,Ignore,Ignore,10409,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS015,light_sensor,Ignore,Ignore,7727,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS016,light_sensor,Ignore,Ignore,3192,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS017,light_sensor,Ignore,Ignore,5678,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS018,light_sensor,Ignore,Ignore,5592,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS019,light_sensor,Ignore,Ignore,302,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS020,light_sensor,Ignore,Ignore,3563,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS021,light_sensor,Ignore,Ignore,4905,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS022,light_sensor,Ignore,Ignore,19296,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS023,light_sensor,Ignore,Ignore,1097,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS024,light_sensor,Ignore,Ignore,3408,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS025,light_sensor,Ignore,Ignore,4466,,no,excluded: non-movement type or CASAS Ignore
+csh104,LS026,light_sensor,Ignore,Ignore,8632,,no,excluded: non-movement type or CASAS Ignore
+csh104,M001,motion,LivingRoom,Hall,4780,LivingRoom,yes,
+csh104,M002,motion,OutsideDoor,Entry,5226,OutsideDoor,yes,
+csh104,M003,motion,Bedroom,Bedroom,16690,Bedroom,yes,
+csh104,M004,motion,Kitchen,Hall,5822,Kitchen,yes,
+csh104,M005,motion,Chair,LivingRoom,3889,Chair,yes,
+csh104,M006,motion,LivingRoom,Chair,534,LivingRoom,yes,
+csh104,M007,motion,Bedroom,Bedroom,5852,Bedroom,yes,
+csh104,M008,motion,WorkArea,WorkArea,11552,WorkArea,yes,
+csh104,M009,motion,WorkArea,Closet,404,WorkArea,yes,
+csh104,M010,motion,WorkArea,Office,9359,WorkArea,yes,
+csh104,M011,motion,Kitchen,Kitchen,12564,Kitchen,yes,
+csh104,M012,motion,Bedroom,Bed,36150,Bedroom,yes,
+csh104,M013,motion,LivingRoom,Hall,6545,LivingRoom,yes,
+csh104,M016,motion,LivingRoom,LivingRoom,1466,LivingRoom,yes,
+csh104,M020,motion,WorkArea,WorkArea,468,WorkArea,yes,
+csh104,M021,motion,Bedroom,Bedroom,30746,Bedroom,yes,
+csh104,M023,motion,Bedroom,Closet,1418,Bedroom,yes,
+csh104,M024,motion,LivingRoom,Hall,3762,LivingRoom,yes,
+csh104,M025,motion,Bedroom,Hall,4286,Bedroom,yes,
+csh104,M026,motion,Kitchen,Kitchen,19405,Kitchen,yes,
+csh104,MA014,motion_area,Bathroom,Bathroom,25612,Bathroom,yes,
+csh104,MA015,motion_area,Bedroom,Bedroom,24803,Bedroom,yes,
+csh104,MA017,motion_area,LivingRoom,LivingRoom,10912,LivingRoom,yes,
+csh104,MA018,motion_area,WorkArea,Office,18248,WorkArea,yes,
+csh104,MA019,motion_area,Bathroom,Bathroom,1186,Bathroom,yes,
+csh104,MA022,motion_area,Kitchen,Kitchen,78036,Kitchen,yes,
+csh104,T101,temperature,Ignore,Ignore,335,,no,excluded: non-movement type or CASAS Ignore
+csh104,T102,temperature,Ignore,FrontDoorTemp,340,,no,excluded: non-movement type or CASAS Ignore
+csh104,T103,temperature,Ignore,BathroomTemp,2013,,no,excluded: non-movement type or CASAS Ignore
+csh104,T104,temperature,Ignore,BathroomTemp,762,,no,excluded: non-movement type or CASAS Ignore
+csh104,T105,temperature,Ignore,BathroomTemp,682,,no,excluded: non-movement type or CASAS Ignore
+csh104,T106,temperature,Ignore,KitchenTemp,1720,,no,excluded: non-movement type or CASAS Ignore
+csh104,T107,temperature,Ignore,KitchenTemp,673,,no,excluded: non-movement type or CASAS Ignore
+csh105,D002,door,OutsideDoor,FrontDoor,982,OutsideDoor,yes,
+csh105,D003,door,Bathroom,BathroomDoor,18,Bathroom,yes,
+csh105,D004,door,Kitchen,Freezer,86,Kitchen,yes,
+csh105,D005,door,Kitchen,Refrigerator,1316,Kitchen,yes,
+csh105,L001,light,LivingRoom,LivingRoom,78,LivingRoom,yes,
+csh105,L002,light,Kitchen,Kitchen,4,Kitchen,yes,
+csh105,L003,light,Kitchen,DiningRoom,12,Kitchen,yes,
+csh105,L004,light,Bedroom,Bedroom,6,Bedroom,yes,
+csh105,L005,light,Bathroom,Bathroom,140,Bathroom,yes,
+csh105,L006,light,Bathroom,Bathroom,463,Bathroom,yes,
+csh105,LS001,light_sensor,Ignore,Ignore,3872,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS002,light_sensor,Ignore,Ignore,3066,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS003,light_sensor,Ignore,Ignore,2904,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS004,light_sensor,Ignore,Ignore,4908,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS005,light_sensor,Ignore,Ignore,1443,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS006,light_sensor,Ignore,Ignore,4060,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS007,light_sensor,Ignore,Ignore,5630,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS008,light_sensor,Ignore,Ignore,2591,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS010,light_sensor,Ignore,Ignore,2507,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS011,light_sensor,Ignore,Ignore,3608,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS012,light_sensor,Ignore,Ignore,3791,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS013,light_sensor,Ignore,Ignore,3229,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS014,light_sensor,Ignore,Ignore,4958,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS015,light_sensor,Ignore,Ignore,5396,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS016,light_sensor,Ignore,Ignore,4702,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS017,light_sensor,Ignore,Ignore,3789,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS018,light_sensor,Ignore,Ignore,4925,,no,excluded: non-movement type or CASAS Ignore
+csh105,LS019,light_sensor,Ignore,Ignore,8787,,no,excluded: non-movement type or CASAS Ignore
+csh105,M002,motion,OutsideDoor,Entry,2210,OutsideDoor,yes,
+csh105,M003,motion,LivingRoom,Hall,2664,LivingRoom,yes,
+csh105,M004,motion,Kitchen,Kitchen,7630,Kitchen,yes,
+csh105,M005,motion,LivingRoom,Chair,636,LivingRoom,yes,
+csh105,M006,motion,Bedroom,Bedroom,6012,Bedroom,yes,
+csh105,M007,motion,Kitchen,Kitchen,12869,Kitchen,yes,
+csh105,M008,motion,Bedroom,Hall,2812,Bedroom,yes,
+csh105,M010,motion,Bedroom,Hall,2200,Bedroom,yes,
+csh105,M012,motion,Bedroom,Bedroom,2772,Bedroom,yes,
+csh105,M013,motion,Bedroom,Bed,2322,Bedroom,yes,
+csh105,M014,motion,LivingRoom,WorkArea,7878,LivingRoom,yes,
+csh105,M017,motion,LivingRoom,Chair,6046,LivingRoom,yes,
+csh105,M018,motion,DiningRoom,DiningRoom,9196,DiningRoom,yes,
+csh105,MA001,motion_area,LivingRoom,LivingRoom,4132,LivingRoom,yes,
+csh105,MA011,motion_area,Bathroom,Bathroom,21062,Bathroom,yes,
+csh105,MA015,motion_area,LivingRoom,LivingRoom,10306,LivingRoom,yes,
+csh105,MA016,motion_area,Bedroom,Bedroom,8610,Bedroom,yes,
+csh105,MA019,motion_area,Kitchen,Kitchen,34612,Kitchen,yes,
+csh105,T101,temperature,Ignore,Ignore,246,,no,excluded: non-movement type or CASAS Ignore
+csh105,T102,temperature,Ignore,FrontDoorTemp,122,,no,excluded: non-movement type or CASAS Ignore
+csh105,T103,temperature,Ignore,BathroomTemp,206,,no,excluded: non-movement type or CASAS Ignore
+csh105,T104,temperature,Ignore,BathroomTemp,266,,no,excluded: non-movement type or CASAS Ignore
+csh105,T105,temperature,Ignore,KitchenTemp,459,,no,excluded: non-movement type or CASAS Ignore
+csh106,D002,door,Kitchen,Refrigerator,1380,Kitchen,yes,
+csh106,D003,door,Kitchen,Freezer,160,Kitchen,yes,
+csh106,D004,door,Bathroom,BathroomDoor,41,Bathroom,yes,
+csh106,D005,door,Bathroom,BathroomDoor,1088,Bathroom,yes,
+csh106,D006,door,OutsideDoor,FrontDoor,1508,OutsideDoor,yes,
+csh106,L001,light,OutsideDoor,FrontDoor,52,OutsideDoor,yes,
+csh106,L002,light,DiningRoom,DiningRoom,178,DiningRoom,yes,
+csh106,L003,light,LivingRoom,LivingRoom,24,LivingRoom,yes,
+csh106,L004,light,Kitchen,Kitchen,182,Kitchen,yes,
+csh106,L005,light,Kitchen,Kitchen,226,Kitchen,yes,
+csh106,L006,light,Bathroom,Bathroom,46,Bathroom,yes,
+csh106,L007,light,WorkArea,Closet,6,WorkArea,yes,
+csh106,L009,light,Bedroom,Closet,130,Bedroom,yes,
+csh106,LS001,light_sensor,Ignore,Ignore,1681,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS002,light_sensor,Ignore,Ignore,2870,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS003,light_sensor,Ignore,Ignore,4365,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS004,light_sensor,Ignore,Ignore,1558,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS005,light_sensor,Ignore,Ignore,425,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS006,light_sensor,Ignore,Ignore,1741,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS007,light_sensor,Ignore,Ignore,1824,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS008,light_sensor,Ignore,Ignore,2177,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS009,light_sensor,Ignore,Ignore,1959,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS010,light_sensor,Ignore,Ignore,1787,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS011,light_sensor,Ignore,Ignore,1205,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS012,light_sensor,Ignore,Ignore,2424,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS013,light_sensor,Ignore,Ignore,2036,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS014,light_sensor,Ignore,Ignore,2297,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS015,light_sensor,Ignore,Ignore,2230,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS016,light_sensor,Ignore,Ignore,3290,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS017,light_sensor,Ignore,Ignore,2891,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS018,light_sensor,Ignore,Ignore,1706,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS019,light_sensor,Ignore,Ignore,158,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS020,light_sensor,Ignore,Ignore,1814,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS021,light_sensor,Ignore,Ignore,1755,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS022,light_sensor,Ignore,Ignore,3587,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS023,light_sensor,Ignore,Ignore,6229,,no,excluded: non-movement type or CASAS Ignore
+csh106,LS024,light_sensor,Ignore,Ignore,3445,,no,excluded: non-movement type or CASAS Ignore
+csh106,M001,motion,WorkArea,WorkArea,3640,WorkArea,yes,
+csh106,M002,motion,LivingRoom,LivingRoom,2114,LivingRoom,yes,
+csh106,M003,motion,Kitchen,Kitchen,18598,Kitchen,yes,
+csh106,M004,motion,WorkArea,Hall,2952,WorkArea,yes,
+csh106,M005,motion,Bedroom,Closet,2316,Bedroom,yes,
+csh106,M006,motion,Bedroom,Hall,3202,Bedroom,yes,
+csh106,M007,motion,Bedroom,Bed,6218,Bedroom,yes,
+csh106,M008,motion,LivingRoom,Hall,8009,LivingRoom,yes,
+csh106,M009,motion,WorkArea,Desk,19076,WorkArea,yes,
+csh106,M010,motion,Kitchen,Hall,6136,Kitchen,yes,
+csh106,M011,motion,Kitchen,Kitchen,7982,Kitchen,yes,
+csh106,M012,motion,Bedroom,Chair,2682,Bedroom,yes,
+csh106,M013,motion,Bedroom,Bedroom,3204,Bedroom,yes,
+csh106,M014,motion,LivingRoom,Hall,10822,LivingRoom,yes,
+csh106,M015,motion,Chair,Chair,1188,Chair,yes,
+csh106,M016,motion,DiningRoom,DiningRoom,20236,DiningRoom,yes,
+csh106,M017,motion,Bathroom,Bedroom,9034,Bathroom,yes,
+csh106,M018,motion,OutsideDoor,Entry,2940,OutsideDoor,yes,
+csh106,M020,motion,LivingRoom,Chair,1482,LivingRoom,yes,
+csh106,M021,motion,LivingRoom,Hall,3294,LivingRoom,yes,
+csh106,MA019,motion_area,Bathroom,Bathroom,744,Bathroom,yes,
+csh106,MA022,motion_area,LivingRoom,LivingRoom,14142,LivingRoom,yes,
+csh106,MA023,motion_area,Kitchen,Kitchen,28269,Kitchen,yes,
+csh106,MA024,motion_area,WorkArea,Office,19246,WorkArea,yes,
+csh106,T101,temperature,Ignore,Ignore,119,,no,excluded: non-movement type or CASAS Ignore
+csh106,T102,temperature,Ignore,KitchenTemp,1240,,no,excluded: non-movement type or CASAS Ignore
+csh106,T103,temperature,Ignore,KitchenTemp,215,,no,excluded: non-movement type or CASAS Ignore
+csh106,T104,temperature,Ignore,BathroomTemp,147,,no,excluded: non-movement type or CASAS Ignore
+csh106,T105,temperature,Ignore,BathroomTemp,137,,no,excluded: non-movement type or CASAS Ignore
+csh106,T106,temperature,Ignore,FrontDoorTemp,78,,no,excluded: non-movement type or CASAS Ignore
+csh107,D002,door,OutsideDoor,FrontDoor,1144,OutsideDoor,yes,
+csh107,LS001,light_sensor,Ignore,Ignore,1621,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS002,light_sensor,Ignore,Ignore,2033,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS003,light_sensor,Ignore,Ignore,1926,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS004,light_sensor,Ignore,Ignore,2997,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS005,light_sensor,Ignore,Ignore,3919,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS006,light_sensor,Ignore,Ignore,2921,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS007,light_sensor,Ignore,Ignore,5303,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS008,light_sensor,Ignore,Ignore,2858,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS009,light_sensor,Ignore,Ignore,4142,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS010,light_sensor,Ignore,Ignore,2527,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS011,light_sensor,Ignore,Ignore,2853,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS012,light_sensor,Ignore,Ignore,2426,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS013,light_sensor,Ignore,Ignore,3250,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS014,light_sensor,Ignore,Ignore,3472,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS015,light_sensor,Ignore,Ignore,7289,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS016,light_sensor,Ignore,Ignore,1891,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS017,light_sensor,Ignore,Ignore,2936,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS018,light_sensor,Ignore,Ignore,3624,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS019,light_sensor,Ignore,Ignore,3433,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS020,light_sensor,Ignore,Ignore,4748,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS021,light_sensor,Ignore,Ignore,4402,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS022,light_sensor,Ignore,Ignore,3493,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS023,light_sensor,Ignore,Ignore,7402,,no,excluded: non-movement type or CASAS Ignore
+csh107,LS024,light_sensor,Ignore,Ignore,3021,,no,excluded: non-movement type or CASAS Ignore
+csh107,M001,motion,OutsideDoor,Entry,4034,OutsideDoor,yes,
+csh107,M002,motion,WorkArea,Hall,3768,WorkArea,yes,
+csh107,M003,motion,LivingRoom,Hall,3646,LivingRoom,yes,
+csh107,M004,motion,LivingRoom,Hall,5266,LivingRoom,yes,
+csh107,M005,motion,DiningRoom,Hall,4440,DiningRoom,yes,
+csh107,M006,motion,Bedroom,Hall,3048,Bedroom,yes,
+csh107,M007,motion,Kitchen,Kitchen,14756,Kitchen,yes,
+csh107,M008,motion,Kitchen,Refrigerator,3912,Kitchen,yes,
+csh107,M009,motion,LivingRoom,Chair,17942,LivingRoom,yes,
+csh107,M010,motion,LivingRoom,Chair,5212,LivingRoom,yes,
+csh107,M011,motion,Bedroom,Bed,11395,Bedroom,yes,
+csh107,M012,motion,Bedroom,Bed,7160,Bedroom,yes,
+csh107,M013,motion,Bedroom,Closet,4100,Bedroom,yes,
+csh107,M014,motion,Kitchen,Kitchen,7406,Kitchen,yes,
+csh107,M015,motion,Kitchen,Kitchen,20753,Kitchen,yes,
+csh107,M016,motion,LivingRoom,Chair,112,LivingRoom,yes,
+csh107,M017,motion,DiningRoom,DiningRoom,6308,DiningRoom,yes,
+csh107,M018,motion,DiningRoom,DiningRoom,11549,DiningRoom,yes,
+csh107,MA019,motion_area,WorkArea,Office,12510,WorkArea,yes,
+csh107,MA020,motion_area,Bathroom,Bathroom,12459,Bathroom,yes,
+csh107,MA021,motion_area,LivingRoom,LivingRoom,14356,LivingRoom,yes,
+csh107,MA022,motion_area,DiningRoom,DiningRoom,5628,DiningRoom,yes,
+csh107,MA023,motion_area,Kitchen,Kitchen,17930,Kitchen,yes,
+csh107,MA024,motion_area,Bedroom,Bedroom,4466,Bedroom,yes,
+csh107,T101,temperature,Ignore,Ignore,546,,no,excluded: non-movement type or CASAS Ignore
+csh107,T102,temperature,Ignore,FrontDoorTemp,128,,no,excluded: non-movement type or CASAS Ignore
+csh107,T103,temperature,Ignore,BathroomTemp,228,,no,excluded: non-movement type or CASAS Ignore
+csh107,T106,temperature,Ignore,Ignore,810,,no,excluded: non-movement type or CASAS Ignore
+csh107,T107,temperature,Ignore,DiningRoomTemp,602,,no,excluded: non-movement type or CASAS Ignore
+csh107,T108,temperature,Ignore,WorkAreaTemp,438,,no,excluded: non-movement type or CASAS Ignore
+csh107,T109,temperature,Ignore,DiningRoomTemp,623,,no,excluded: non-movement type or CASAS Ignore
+csh108,D001,door,Ignore,Ignore,15,,no,excluded: non-movement type or CASAS Ignore
+csh108,D002,door,Bathroom,BathroomDoor,1243,Bathroom,yes,
+csh108,D003,door,Kitchen,Refrigerator,235,Kitchen,yes,
+csh108,D004,door,Kitchen,Freezer,1225,Kitchen,yes,
+csh108,D005,door,OutsideDoor,FrontDoor,1619,OutsideDoor,yes,
+csh108,L001,light,OutsideDoor,FrontDoor,260,OutsideDoor,yes,
+csh108,L002,light,DiningRoom,DiningRoom,348,DiningRoom,yes,
+csh108,L003,light,WorkArea,Closet,134,WorkArea,yes,
+csh108,L004,light,Kitchen,Kitchen,8,Kitchen,yes,
+csh108,L005,light,Kitchen,Kitchen,637,Kitchen,yes,
+csh108,L006,light,Bathroom,Bathroom,25,Bathroom,yes,
+csh108,L007,light,Bedroom,Closet,336,Bedroom,yes,
+csh108,LS001,light_sensor,Ignore,Ignore,3481,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS002,light_sensor,Ignore,Ignore,2360,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS003,light_sensor,Ignore,Ignore,1511,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS004,light_sensor,Ignore,Ignore,1741,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS005,light_sensor,Ignore,Ignore,7354,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS006,light_sensor,Ignore,Ignore,2679,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS007,light_sensor,Ignore,Ignore,3371,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS008,light_sensor,Ignore,Ignore,2293,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS009,light_sensor,Ignore,Ignore,3545,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS010,light_sensor,Ignore,Ignore,1963,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS011,light_sensor,Ignore,Ignore,4234,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS012,light_sensor,Ignore,Ignore,3583,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS013,light_sensor,Ignore,Ignore,2899,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS014,light_sensor,Ignore,Ignore,5013,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS015,light_sensor,Ignore,Ignore,4079,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS016,light_sensor,Ignore,Ignore,1198,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS017,light_sensor,Ignore,Ignore,3084,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS018,light_sensor,Ignore,Ignore,4908,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS019,light_sensor,Ignore,Ignore,721,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS020,light_sensor,Ignore,Ignore,2253,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS021,light_sensor,Ignore,Ignore,3431,,no,excluded: non-movement type or CASAS Ignore
+csh108,LS022,light_sensor,Ignore,Ignore,2600,,no,excluded: non-movement type or CASAS Ignore
+csh108,M001,motion,Bedroom,Bedroom,15235,Bedroom,yes,
+csh108,M002,motion,WorkArea,Hall,10293,WorkArea,yes,
+csh108,M003,motion,WorkArea,Chair,1365,WorkArea,yes,
+csh108,M004,motion,LivingRoom,Chair,1465,LivingRoom,yes,
+csh108,M006,motion,LivingRoom,Chair,10109,LivingRoom,yes,
+csh108,M007,motion,LivingRoom,LivingRoom,13057,LivingRoom,yes,
+csh108,M008,motion,OutsideDoor,Hall,5779,OutsideDoor,yes,
+csh108,M009,motion,Kitchen,Kitchen,14679,Kitchen,yes,
+csh108,M010,motion,OutsideDoor,Entry,5397,OutsideDoor,yes,
+csh108,M011,motion,Kitchen,Hall,13351,Kitchen,yes,
+csh108,M012,motion,Bedroom,Hall,10713,Bedroom,yes,
+csh108,M013,motion,LivingRoom,DiningRoom,16062,LivingRoom,yes,
+csh108,M015,motion,Kitchen,Kitchen,18427,Kitchen,yes,
+csh108,M016,motion,Kitchen,Kitchen,1717,Kitchen,yes,
+csh108,M017,motion,Bedroom,Bedroom,12785,Bedroom,yes,
+csh108,M020,motion,Bedroom,Bedroom,4315,Bedroom,yes,
+csh108,M021,motion,Bathroom,Bedroom,8972,Bathroom,yes,
+csh108,M022,motion,Bedroom,Bed,10171,Bedroom,yes,
+csh108,MA005,motion_area,Kitchen,Kitchen,44249,Kitchen,yes,
+csh108,MA014,motion_area,LivingRoom,LivingRoom,32161,LivingRoom,yes,
+csh108,MA018,motion_area,WorkArea,Office,29239,WorkArea,yes,
+csh108,MA019,motion_area,Bathroom,Bathroom,795,Bathroom,yes,
+csh108,T101,temperature,Ignore,Ignore,86,,no,excluded: non-movement type or CASAS Ignore
+csh108,T102,temperature,Ignore,BedroomTemp,199,,no,excluded: non-movement type or CASAS Ignore
+csh108,T103,temperature,Ignore,KitchenTemp,2649,,no,excluded: non-movement type or CASAS Ignore
+csh108,T104,temperature,Ignore,FrontDoorTemp,58,,no,excluded: non-movement type or CASAS Ignore
+csh109,D001,door,Ignore,Ignore,3,,no,excluded: non-movement type or CASAS Ignore
+csh109,D002,door,OutsideDoor,FrontDoor,1561,OutsideDoor,yes,
+csh109,D003,door,Bathroom,BathroomDoor,121,Bathroom,yes,
+csh109,D004,door,Kitchen,Refrigerator,1618,Kitchen,yes,
+csh109,D005,door,Kitchen,Freezer,282,Kitchen,yes,
+csh109,L001,light,OutsideDoor,FrontDoor,193,OutsideDoor,yes,
+csh109,L002,light,Bedroom,Bedroom,16,Bedroom,yes,
+csh109,LS001,light_sensor,Ignore,Ignore,7638,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS002,light_sensor,Ignore,Ignore,7196,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS003,light_sensor,Ignore,Ignore,4758,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS004,light_sensor,Ignore,Ignore,5740,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS005,light_sensor,Ignore,Ignore,8235,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS006,light_sensor,Ignore,Ignore,7291,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS007,light_sensor,Ignore,Ignore,10834,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS008,light_sensor,Ignore,Ignore,9917,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS009,light_sensor,Ignore,Ignore,38818,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS010,light_sensor,Ignore,Ignore,11135,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS011,light_sensor,Ignore,Ignore,6151,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS012,light_sensor,Ignore,Ignore,7491,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS013,light_sensor,Ignore,Ignore,11485,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS014,light_sensor,Ignore,Ignore,7589,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS015,light_sensor,Ignore,Ignore,5438,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS016,light_sensor,Ignore,Ignore,5891,,no,excluded: non-movement type or CASAS Ignore
+csh109,LS017,light_sensor,Ignore,Ignore,6806,,no,excluded: non-movement type or CASAS Ignore
+csh109,M001,motion,OutsideDoor,Entry,14456,OutsideDoor,yes,
+csh109,M002,motion,LivingRoom,Hall,8641,LivingRoom,yes,
+csh109,M003,motion,LivingRoom,Chair,303,LivingRoom,yes,
+csh109,M004,motion,LivingRoom,LivingRoom,2849,LivingRoom,yes,
+csh109,M006,motion,Chair,Chair,11338,Chair,yes,
+csh109,M007,motion,DiningRoom,DiningRoom,43478,DiningRoom,yes,
+csh109,M008,motion,Kitchen,Kitchen,27184,Kitchen,yes,
+csh109,M010,motion,Kitchen,Kitchen,27274,Kitchen,yes,
+csh109,M011,motion,Bedroom,Hall,11284,Bedroom,yes,
+csh109,M012,motion,Bedroom,Bedroom,19862,Bedroom,yes,
+csh109,M014,motion,WorkArea,Bedroom,22643,WorkArea,yes,
+csh109,M015,motion,Bedroom,Bed,16449,Bedroom,yes,
+csh109,M016,motion,Bathroom,Hall,12951,Bathroom,yes,
+csh109,MA005,motion_area,LivingRoom,LivingRoom,22642,LivingRoom,yes,
+csh109,MA009,motion_area,Kitchen,Kitchen,70014,Kitchen,yes,
+csh109,MA013,motion_area,Bedroom,Bedroom,47014,Bedroom,yes,
+csh109,MA017,motion_area,Bathroom,Bathroom,37124,Bathroom,yes,
+csh109,T101,temperature,Ignore,Ignore,1033,,no,excluded: non-movement type or CASAS Ignore
+csh109,T102,temperature,Ignore,FrontDoorTemp,298,,no,excluded: non-movement type or CASAS Ignore
+csh109,T103,temperature,Ignore,BathroomTemp,171,,no,excluded: non-movement type or CASAS Ignore
+csh109,T104,temperature,Ignore,KitchenTemp,1266,,no,excluded: non-movement type or CASAS Ignore
+csh110,D002,door,OutsideDoor,FrontDoor,548,OutsideDoor,yes,
+csh110,D003,door,Bathroom,BathroomDoor,41,Bathroom,yes,
+csh110,D004,door,Kitchen,Refrigerator,406,Kitchen,yes,
+csh110,D005,door,Kitchen,Freezer,56,Kitchen,yes,
+csh110,L001,light,OutsideDoor,FrontDoor,108,OutsideDoor,yes,
+csh110,L002,light,LivingRoom,LivingRoom,8,LivingRoom,yes,
+csh110,L003,light,Kitchen,Kitchen,20,Kitchen,yes,
+csh110,L004,light,Kitchen,Kitchen,99,Kitchen,yes,
+csh110,L005,light,DiningRoom,DiningRoom,96,DiningRoom,yes,
+csh110,L006,light,Bedroom,Bedroom,40,Bedroom,yes,
+csh110,LS001,light_sensor,Ignore,Ignore,2220,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS002,light_sensor,Ignore,Ignore,1758,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS003,light_sensor,Ignore,Ignore,1588,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS004,light_sensor,Ignore,Ignore,3196,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS005,light_sensor,Ignore,Ignore,1446,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS006,light_sensor,Ignore,Ignore,1700,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS007,light_sensor,Ignore,Ignore,2235,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS008,light_sensor,Ignore,Ignore,2532,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS009,light_sensor,Ignore,Ignore,2051,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS010,light_sensor,Ignore,Ignore,2428,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS011,light_sensor,Ignore,Ignore,2326,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS012,light_sensor,Ignore,Ignore,3817,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS013,light_sensor,Ignore,Ignore,2547,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS014,light_sensor,Ignore,Ignore,4743,,no,excluded: non-movement type or CASAS Ignore
+csh110,LS015,light_sensor,Ignore,Ignore,2334,,no,excluded: non-movement type or CASAS Ignore
+csh110,M001,motion,OutsideDoor,Entry,2602,OutsideDoor,yes,
+csh110,M002,motion,LivingRoom,Hall,3326,LivingRoom,yes,
+csh110,M003,motion,LivingRoom,LivingRoom,1798,LivingRoom,yes,
+csh110,M005,motion,Chair,Chair,1178,Chair,yes,
+csh110,M006,motion,LivingRoom,Chair,328,LivingRoom,yes,
+csh110,M007,motion,DiningRoom,DiningRoom,7551,DiningRoom,yes,
+csh110,M008,motion,Kitchen,Kitchen,4471,Kitchen,yes,
+csh110,M009,motion,Kitchen,Kitchen,6338,Kitchen,yes,
+csh110,M011,motion,Bedroom,Hall,4075,Bedroom,yes,
+csh110,M013,motion,Bedroom,Bedroom,11186,Bedroom,yes,
+csh110,M015,motion,Bedroom,Bed,7454,Bedroom,yes,
+csh110,MA004,motion_area,LivingRoom,LivingRoom,9211,LivingRoom,yes,
+csh110,MA010,motion_area,Kitchen,Kitchen,6915,Kitchen,yes,
+csh110,MA012,motion_area,Bathroom,Bathroom,11737,Bathroom,yes,
+csh110,MA014,motion_area,Bedroom,Bedroom,19137,Bedroom,yes,
+csh110,T101,temperature,Ignore,Ignore,96,,no,excluded: non-movement type or CASAS Ignore
+csh110,T102,temperature,Ignore,FrontDoorTemp,94,,no,excluded: non-movement type or CASAS Ignore
+csh110,T103,temperature,Ignore,BathroomTemp,306,,no,excluded: non-movement type or CASAS Ignore
+csh110,T104,temperature,Ignore,KitchenTemp,628,,no,excluded: non-movement type or CASAS Ignore
+csh111,D001,door,Ignore,Ignore,4,,no,excluded: non-movement type or CASAS Ignore
+csh111,D002,door,OutsideDoor,FrontDoor,903,OutsideDoor,yes,
+csh111,D003,door,Bathroom,BathroomDoor,1,Bathroom,yes,
+csh111,D004,door,Bedroom,Bedroom,239,Bedroom,yes,
+csh111,D005,door,Kitchen,Refrigerator,289,Kitchen,yes,
+csh111,L001,light,OutsideDoor,FrontDoor,177,OutsideDoor,yes,
+csh111,L002,light,OutsideDoor,Closet,13,OutsideDoor,yes,
+csh111,L003,light,Kitchen,Kitchen,1,Kitchen,yes,
+csh111,L004,light,Kitchen,Kitchen,155,Kitchen,yes,
+csh111,L005,light,OutsideDoor,Closet,47,OutsideDoor,yes,
+csh111,L006,light,WorkArea,Office,163,WorkArea,yes,
+csh111,L007,light,Bathroom,Bathroom,827,Bathroom,yes,
+csh111,L008,light,Bedroom,Closet,353,Bedroom,yes,
+csh111,LS001,light_sensor,Ignore,Ignore,1335,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS002,light_sensor,Ignore,Ignore,3190,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS003,light_sensor,Ignore,Ignore,5524,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS004,light_sensor,Ignore,Ignore,4892,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS005,light_sensor,Ignore,Ignore,9372,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS006,light_sensor,Ignore,Ignore,7515,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS007,light_sensor,Ignore,Ignore,7155,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS008,light_sensor,Ignore,Ignore,4616,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS009,light_sensor,Ignore,Ignore,7650,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS010,light_sensor,Ignore,Ignore,6003,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS011,light_sensor,Ignore,Ignore,9064,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS012,light_sensor,Ignore,Ignore,6680,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS013,light_sensor,Ignore,Ignore,4837,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS014,light_sensor,Ignore,Ignore,5262,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS015,light_sensor,Ignore,Ignore,6512,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS016,light_sensor,Ignore,Ignore,5081,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS017,light_sensor,Ignore,Ignore,5427,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS018,light_sensor,Ignore,Ignore,5422,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS019,light_sensor,Ignore,Ignore,4294,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS020,light_sensor,Ignore,Ignore,5327,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS021,light_sensor,Ignore,Ignore,6992,,no,excluded: non-movement type or CASAS Ignore
+csh111,LS022,light_sensor,Ignore,Ignore,6104,,no,excluded: non-movement type or CASAS Ignore
+csh111,M001,motion,OutsideDoor,Entry,2733,OutsideDoor,yes,
+csh111,M002,motion,OutsideDoor,Hall,2649,OutsideDoor,yes,
+csh111,M003,motion,OutsideDoor,Hall,5877,OutsideDoor,yes,
+csh111,M004,motion,WorkArea,Hall,5097,WorkArea,yes,
+csh111,M005,motion,WorkArea,Desk,49563,WorkArea,yes,
+csh111,M007,motion,Kitchen,Kitchen,18835,Kitchen,yes,
+csh111,M008,motion,Kitchen,Kitchen,4349,Kitchen,yes,
+csh111,M009,motion,Kitchen,Hall,10481,Kitchen,yes,
+csh111,M010,motion,Bathroom,Hall,8343,Bathroom,yes,
+csh111,M012,motion,LivingRoom,Hall,6589,LivingRoom,yes,
+csh111,M013,motion,LivingRoom,LivingRoom,1893,LivingRoom,yes,
+csh111,M014,motion,LivingRoom,LivingRoom,3919,LivingRoom,yes,
+csh111,M016,motion,LivingRoom,Chair,2627,LivingRoom,yes,
+csh111,M017,motion,LivingRoom,Chair,4277,LivingRoom,yes,
+csh111,M018,motion,Bedroom,Hall,5577,Bedroom,yes,
+csh111,M020,motion,Bedroom,Bedroom,11315,Bedroom,yes,
+csh111,M022,motion,Bedroom,Bed,17787,Bedroom,yes,
+csh111,MA006,motion_area,WorkArea,Office,12365,WorkArea,yes,
+csh111,MA011,motion_area,Bathroom,Bathroom,16745,Bathroom,yes,
+csh111,MA015,motion_area,LivingRoom,LivingRoom,10625,LivingRoom,yes,
+csh111,MA019,motion_area,Bedroom,Closet,4439,Bedroom,yes,
+csh111,MA021,motion_area,Bedroom,Bedroom,12031,Bedroom,yes,
+csh111,T101,temperature,Ignore,Ignore,444,,no,excluded: non-movement type or CASAS Ignore
+csh111,T102,temperature,Ignore,FrontDoorTemp,291,,no,excluded: non-movement type or CASAS Ignore
+csh111,T103,temperature,Ignore,BathroomTemp,509,,no,excluded: non-movement type or CASAS Ignore
+csh111,T104,temperature,Ignore,BedroomTemp,467,,no,excluded: non-movement type or CASAS Ignore
+csh111,T105,temperature,Ignore,KitchenTemp,100,,no,excluded: non-movement type or CASAS Ignore
+csh112,D001,door,Ignore,Ignore,8,,no,excluded: non-movement type or CASAS Ignore
+csh112,D002,door,OutsideDoor,FrontDoor,1520,OutsideDoor,yes,
+csh112,D003,door,Bathroom,BathroomDoor,555,Bathroom,yes,
+csh112,D004,door,Kitchen,Refrigerator,3198,Kitchen,yes,
+csh112,L001,light,OutsideDoor,FrontDoor,58,OutsideDoor,yes,
+csh112,L002,light,Kitchen,Kitchen,129,Kitchen,yes,
+csh112,L003,light,Bedroom,Bedroom,26,Bedroom,yes,
+csh112,LS001,light_sensor,Ignore,Ignore,6758,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS002,light_sensor,Ignore,Ignore,9238,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS003,light_sensor,Ignore,Ignore,8973,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS004,light_sensor,Ignore,Ignore,11897,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS005,light_sensor,Ignore,Ignore,21319,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS006,light_sensor,Ignore,Ignore,7341,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS007,light_sensor,Ignore,Ignore,15667,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS008,light_sensor,Ignore,Ignore,8923,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS009,light_sensor,Ignore,Ignore,9663,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS010,light_sensor,Ignore,Ignore,10450,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS011,light_sensor,Ignore,Ignore,10603,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS012,light_sensor,Ignore,Ignore,17617,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS013,light_sensor,Ignore,Ignore,10063,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS014,light_sensor,Ignore,Ignore,11169,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS015,light_sensor,Ignore,Ignore,12079,,no,excluded: non-movement type or CASAS Ignore
+csh112,LS016,light_sensor,Ignore,Ignore,14985,,no,excluded: non-movement type or CASAS Ignore
+csh112,M001,motion,OutsideDoor,Entry,6660,OutsideDoor,yes,
+csh112,M002,motion,Bathroom,Hall,20474,Bathroom,yes,
+csh112,M003,motion,Bedroom,Hall,26228,Bedroom,yes,
+csh112,M004,motion,Bedroom,Bedroom,24472,Bedroom,yes,
+csh112,M006,motion,Bedroom,Bed,43799,Bedroom,yes,
+csh112,M007,motion,Bedroom,Desk,62952,Bedroom,yes,
+csh112,M008,motion,Bedroom,Bedroom,8252,Bedroom,yes,
+csh112,M009,motion,LivingRoom,Hall,12052,LivingRoom,yes,
+csh112,M010,motion,LivingRoom,LivingRoom,11268,LivingRoom,yes,
+csh112,M011,motion,Chair,Chair,19224,Chair,yes,
+csh112,M013,motion,LivingRoom,LivingRoom,11040,LivingRoom,yes,
+csh112,M014,motion,WorkArea,WorkArea,13528,WorkArea,yes,
+csh112,M015,motion,DiningRoom,LivingRoom,15890,DiningRoom,yes,
+csh112,M016,motion,Kitchen,Kitchen,41186,Kitchen,yes,
+csh112,MA005,motion_area,Bedroom,Bedroom,102004,Bedroom,yes,
+csh112,MA012,motion_area,LivingRoom,LivingRoom,44128,LivingRoom,yes,
+csh112,T101,temperature,Ignore,Ignore,2409,,no,excluded: non-movement type or CASAS Ignore
+csh112,T102,temperature,Ignore,FrontDoorTemp,478,,no,excluded: non-movement type or CASAS Ignore
+csh112,T103,temperature,Ignore,BathroomTemp,463,,no,excluded: non-movement type or CASAS Ignore
+csh112,T104,temperature,Ignore,KitchenTemp,1686,,no,excluded: non-movement type or CASAS Ignore
+csh113,D001,door,Ignore,Ignore,16,,no,excluded: non-movement type or CASAS Ignore
+csh113,D002,door,OutsideDoor,FrontDoor,9084,OutsideDoor,yes,
+csh113,D003,door,Bathroom,BathroomDoor,9409,Bathroom,yes,
+csh113,D004,door,Bathroom,BathroomDoor,4901,Bathroom,yes,
+csh113,D005,door,Kitchen,Refrigerator,12023,Kitchen,yes,
+csh113,D006,door,Kitchen,Freezer,831,Kitchen,yes,
+csh113,L001,light,OutsideDoor,FrontDoor,1419,OutsideDoor,yes,
+csh113,L002,light,Bedroom,Hall,198,Bedroom,yes,
+csh113,L003,light,Bedroom,Bedroom,2143,Bedroom,yes,
+csh113,L004,light,Bedroom,Closet,3363,Bedroom,yes,
+csh113,L005,light,Bathroom,Bathroom,4750,Bathroom,yes,
+csh113,L006,light,Kitchen,Kitchen,1649,Kitchen,yes,
+csh113,L007,light,Kitchen,Kitchen,771,Kitchen,yes,
+csh113,L008,light,LivingRoom,LivingRoom,576,LivingRoom,yes,
+csh113,L009,light,LivingRoom,Hall,962,LivingRoom,yes,
+csh113,L010,light,Bathroom,Bathroom,2652,Bathroom,yes,
+csh113,LS001,light_sensor,Ignore,Ignore,20508,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS002,light_sensor,Ignore,Ignore,26519,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS003,light_sensor,Ignore,Ignore,25661,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS004,light_sensor,Ignore,Ignore,35201,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS005,light_sensor,Ignore,Ignore,105344,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS006,light_sensor,Ignore,Ignore,28063,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS007,light_sensor,Ignore,Ignore,29538,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS008,light_sensor,Ignore,Ignore,17635,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS009,light_sensor,Ignore,Ignore,35454,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS010,light_sensor,Ignore,Ignore,45354,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS011,light_sensor,Ignore,Ignore,89551,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS012,light_sensor,Ignore,Ignore,51786,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS013,light_sensor,Ignore,Ignore,27137,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS014,light_sensor,Ignore,Ignore,22294,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS015,light_sensor,Ignore,Ignore,38267,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS016,light_sensor,Ignore,Ignore,41797,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS017,light_sensor,Ignore,Ignore,28943,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS018,light_sensor,Ignore,Ignore,30570,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS019,light_sensor,Ignore,Ignore,37491,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS020,light_sensor,Ignore,Ignore,31597,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS021,light_sensor,Ignore,Ignore,32636,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS022,light_sensor,Ignore,Ignore,43914,,no,excluded: non-movement type or CASAS Ignore
+csh113,LS023,light_sensor,Ignore,Ignore,41917,,no,excluded: non-movement type or CASAS Ignore
+csh113,M001,motion,OutsideDoor,Entry,27270,OutsideDoor,yes,
+csh113,M002,motion,OutsideDoor,Hall,26733,OutsideDoor,yes,
+csh113,M003,motion,Bedroom,Hall,18017,Bedroom,yes,
+csh113,M004,motion,Bedroom,Hall,96552,Bedroom,yes,
+csh113,M006,motion,Bedroom,Bedroom,62367,Bedroom,yes,
+csh113,M007,motion,Bedroom,Bed,90008,Bedroom,yes,
+csh113,M008,motion,Bedroom,Bedroom,62475,Bedroom,yes,
+csh113,M009,motion,Kitchen,Hall,39612,Kitchen,yes,
+csh113,M010,motion,Kitchen,Kitchen,98675,Kitchen,yes,
+csh113,M012,motion,Kitchen,Kitchen,158738,Kitchen,yes,
+csh113,M014,motion,WorkArea,Hall,17951,WorkArea,yes,
+csh113,M015,motion,DiningRoom,DiningRoom,41523,DiningRoom,yes,
+csh113,M016,motion,Kitchen,Hall,94675,Kitchen,yes,
+csh113,M017,motion,LivingRoom,LivingRoom,13438,LivingRoom,yes,
+csh113,M018,motion,LivingRoom,LivingRoom,7148,LivingRoom,yes,
+csh113,M020,motion,LivingRoom,Chair,3446,LivingRoom,yes,
+csh113,M021,motion,LivingRoom,Chair,3417,LivingRoom,yes,
+csh113,M022,motion,WorkArea,Desk,172608,WorkArea,yes,
+csh113,MA005,motion_area,Bathroom,Bathroom,558514,Bathroom,yes,
+csh113,MA011,motion_area,Kitchen,Kitchen,398791,Kitchen,yes,
+csh113,MA013,motion_area,Bathroom,Bathroom,81832,Bathroom,yes,
+csh113,MA019,motion_area,LivingRoom,LivingRoom,17046,LivingRoom,yes,
+csh113,MA023,motion_area,WorkArea,Office,136680,WorkArea,yes,
+csh113,T101,temperature,Ignore,Ignore,2864,,no,excluded: non-movement type or CASAS Ignore
+csh113,T102,temperature,Ignore,FrontDoorTemp,1933,,no,excluded: non-movement type or CASAS Ignore
+csh113,T103,temperature,Ignore,BathroomTemp,2697,,no,excluded: non-movement type or CASAS Ignore
+csh113,T104,temperature,Ignore,BathroomTemp,1490,,no,excluded: non-movement type or CASAS Ignore
+csh113,T105,temperature,Ignore,KitchenTemp,12452,,no,excluded: non-movement type or CASAS Ignore
+csh114,D001,door,Ignore,Ignore,2,,no,excluded: non-movement type or CASAS Ignore
+csh114,D002,door,OutsideDoor,FrontDoor,540,OutsideDoor,yes,
+csh114,D003,door,Bathroom,BathroomDoor,110,Bathroom,yes,
+csh114,L001,light,OutsideDoor,FrontDoor,326,OutsideDoor,yes,
+csh114,L002,light,Kitchen,Kitchen,263,Kitchen,yes,
+csh114,L003,light,Kitchen,Kitchen,72,Kitchen,yes,
+csh114,L004,light,Kitchen,Kitchen,80,Kitchen,yes,
+csh114,L005,light,LivingRoom,LivingRoom,131,LivingRoom,yes,
+csh114,L006,light,Bedroom,Bedroom,148,Bedroom,yes,
+csh114,L007,light,Bathroom,Bathroom,426,Bathroom,yes,
+csh114,L008,light,Bathroom,Bathroom,24,Bathroom,yes,
+csh114,LS001,light_sensor,Ignore,Ignore,2140,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS002,light_sensor,Ignore,Ignore,8392,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS003,light_sensor,Ignore,Ignore,5339,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS004,light_sensor,Ignore,Ignore,9195,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS005,light_sensor,Ignore,Ignore,4323,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS006,light_sensor,Ignore,Ignore,4092,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS007,light_sensor,Ignore,Ignore,3242,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS008,light_sensor,Ignore,Ignore,3610,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS009,light_sensor,Ignore,Ignore,3253,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS010,light_sensor,Ignore,Ignore,2500,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS011,light_sensor,Ignore,Ignore,2315,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS012,light_sensor,Ignore,Ignore,4926,,no,excluded: non-movement type or CASAS Ignore
+csh114,LS013,light_sensor,Ignore,Ignore,3290,,no,excluded: non-movement type or CASAS Ignore
+csh114,M001,motion,OutsideDoor,Entry,1822,OutsideDoor,yes,
+csh114,M002,motion,Kitchen,Kitchen,18358,Kitchen,yes,
+csh114,M003,motion,Kitchen,Kitchen,10652,Kitchen,yes,
+csh114,M005,motion,LivingRoom,Hall,8666,LivingRoom,yes,
+csh114,MA004,motion_area,Kitchen,Kitchen,28468,Kitchen,yes,
+csh114,MA006,motion_area,LivingRoom,LivingRoom,9564,LivingRoom,yes,
+csh114,MA007,motion_area,LivingRoom,LivingRoom,4210,LivingRoom,yes,
+csh114,MA008,motion_area,LivingRoom,LivingRoom,13692,LivingRoom,yes,
+csh114,MA009,motion_area,LivingRoom,LivingRoom,6140,LivingRoom,yes,
+csh114,MA010,motion_area,Bedroom,Hall,3572,Bedroom,yes,
+csh114,MA011,motion_area,Bedroom,Bedroom,2764,Bedroom,yes,
+csh114,MA012,motion_area,Bedroom,Bedroom,15778,Bedroom,yes,
+csh114,MA013,motion_area,Bathroom,Bathroom,9520,Bathroom,yes,
+csh114,T101,temperature,Ignore,Ignore,129,,no,excluded: non-movement type or CASAS Ignore
+csh114,T102,temperature,Ignore,FrontDoorTemp,253,,no,excluded: non-movement type or CASAS Ignore
+csh114,T103,temperature,Ignore,BathroomTemp,216,,no,excluded: non-movement type or CASAS Ignore
+csh115,D001,door,Ignore,Ignore,12,,no,excluded: non-movement type or CASAS Ignore
+csh115,D002,door,OutsideDoor,FrontDoor,7364,OutsideDoor,yes,
+csh115,D003,door,Bathroom,BathroomDoor,155,Bathroom,yes,
+csh115,D004,door,Kitchen,Refrigerator,3238,Kitchen,yes,
+csh115,D005,door,Kitchen,Freezer,1694,Kitchen,yes,
+csh115,L001,light,OutsideDoor,FrontDoor,78,OutsideDoor,yes,
+csh115,L002,light,LivingRoom,LivingRoom,2002,LivingRoom,yes,
+csh115,L003,light,Kitchen,Kitchen,1233,Kitchen,yes,
+csh115,L004,light,Kitchen,Kitchen,1375,Kitchen,yes,
+csh115,L005,light,Bathroom,Bathroom,3482,Bathroom,yes,
+csh115,L006,light,Bedroom,Bedroom,512,Bedroom,yes,
+csh115,L007,light,Bedroom,Bedroom,2589,Bedroom,yes,
+csh115,L008,light,Bedroom,Bedroom,865,Bedroom,yes,
+csh115,L009,light,Bedroom,Bedroom,202,Bedroom,yes,
+csh115,LS001,light_sensor,Ignore,Ignore,65762,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS002,light_sensor,Ignore,Ignore,49962,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS003,light_sensor,Ignore,Ignore,22776,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS004,light_sensor,Ignore,Ignore,19696,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS005,light_sensor,Ignore,Ignore,27566,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS006,light_sensor,Ignore,Ignore,25465,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS007,light_sensor,Ignore,Ignore,24746,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS008,light_sensor,Ignore,Ignore,52455,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS009,light_sensor,Ignore,Ignore,29710,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS010,light_sensor,Ignore,Ignore,33157,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS011,light_sensor,Ignore,Ignore,25585,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS012,light_sensor,Ignore,Ignore,50872,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS013,light_sensor,Ignore,Ignore,44002,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS014,light_sensor,Ignore,Ignore,19056,,no,excluded: non-movement type or CASAS Ignore
+csh115,LS015,light_sensor,Ignore,Ignore,19503,,no,excluded: non-movement type or CASAS Ignore
+csh115,M003,motion,Bedroom,Bed,153866,Bedroom,yes,
+csh115,M004,motion,LivingRoom,LivingRoom,19214,LivingRoom,yes,
+csh115,M005,motion,Bedroom,Bedroom,84706,Bedroom,yes,
+csh115,M006,motion,LivingRoom,LivingRoom,37064,LivingRoom,yes,
+csh115,M007,motion,Bedroom,Hall,40906,Bedroom,yes,
+csh115,M009,motion,Chair,Chair,60238,Chair,yes,
+csh115,M010,motion,Kitchen,Kitchen,80741,Kitchen,yes,
+csh115,M011,motion,OutsideDoor,Entry,30386,OutsideDoor,yes,
+csh115,M013,motion,Kitchen,Kitchen,129008,Kitchen,yes,
+csh115,M014,motion,LivingRoom,DiningRoom,9073,LivingRoom,yes,
+csh115,M015,motion,LivingRoom,LivingRoom,21737,LivingRoom,yes,
+csh115,MA001,motion_area,Bedroom,Bedroom,326797,Bedroom,yes,
+csh115,MA002,motion_area,Kitchen,Kitchen,200126,Kitchen,yes,
+csh115,MA008,motion_area,Bathroom,Bathroom,216440,Bathroom,yes,
+csh115,MA012,motion_area,LivingRoom,LivingRoom,168631,LivingRoom,yes,
+csh115,T101,temperature,Ignore,Ignore,3173,,no,excluded: non-movement type or CASAS Ignore
+csh115,T102,temperature,Ignore,FrontDoorTemp,1498,,no,excluded: non-movement type or CASAS Ignore
+csh115,T103,temperature,Ignore,BathroomTemp,6254,,no,excluded: non-movement type or CASAS Ignore
+csh115,T104,temperature,Ignore,BathroomTemp,6083,,no,excluded: non-movement type or CASAS Ignore
+csh115,T105,temperature,Ignore,KitchenTemp,4432,,no,excluded: non-movement type or CASAS Ignore
+csh115,T106,temperature,Ignore,KitchenTemp,3726,,no,excluded: non-movement type or CASAS Ignore
+csh116,D002,door,OutsideDoor,FrontDoor,1728,OutsideDoor,yes,
+csh116,D003,door,Bedroom,Closet,28,Bedroom,yes,
+csh116,D004,door,Kitchen,Refrigerator,1238,Kitchen,yes,
+csh116,D005,door,Kitchen,Freezer,562,Kitchen,yes,
+csh116,L001,light,OutsideDoor,FrontDoor,38,OutsideDoor,yes,
+csh116,L002,light,Bathroom,Bathroom,196,Bathroom,yes,
+csh116,L003,light,Bathroom,Bathroom,4,Bathroom,yes,
+csh116,L004,light,Kitchen,Kitchen,666,Kitchen,yes,
+csh116,L006,light,Kitchen,Kitchen,14,Kitchen,yes,
+csh116,L007,light,Bathroom,Bathroom,843,Bathroom,yes,
+csh116,L008,light,Bathroom,Bathroom,2,Bathroom,yes,
+csh116,LS001,light_sensor,Ignore,Ignore,8915,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS002,light_sensor,Ignore,Ignore,4883,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS003,light_sensor,Ignore,Ignore,5161,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS004,light_sensor,Ignore,Ignore,4295,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS005,light_sensor,Ignore,Ignore,5291,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS006,light_sensor,Ignore,Ignore,1025,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS007,light_sensor,Ignore,Ignore,7372,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS010,light_sensor,Ignore,Ignore,28491,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS011,light_sensor,Ignore,Ignore,16587,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS012,light_sensor,Ignore,Ignore,5797,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS013,light_sensor,Ignore,Ignore,6816,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS014,light_sensor,Ignore,Ignore,4822,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS015,light_sensor,Ignore,Ignore,6052,,no,excluded: non-movement type or CASAS Ignore
+csh116,LS016,light_sensor,Ignore,Ignore,7082,,no,excluded: non-movement type or CASAS Ignore
+csh116,M001,motion,Kitchen,Kitchen,29994,Kitchen,yes,
+csh116,M002,motion,Kitchen,Kitchen,12598,Kitchen,yes,
+csh116,M003,motion,OutsideDoor,Entry,6054,OutsideDoor,yes,
+csh116,M004,motion,LivingRoom,Hall,6848,LivingRoom,yes,
+csh116,M005,motion,Bedroom,Closet,11832,Bedroom,yes,
+csh116,MA006,motion_area,Bathroom,Bathroom,3776,Bathroom,yes,
+csh116,MA007,motion_area,Bedroom,Bedroom,23680,Bedroom,yes,
+csh116,MA010,motion_area,Bathroom,Bathroom,166084,Bathroom,yes,
+csh116,MA011,motion_area,Kitchen,Kitchen,57136,Kitchen,yes,
+csh116,MA012,motion_area,Chair,Chair,12058,Chair,yes,
+csh116,MA013,motion_area,DiningRoom,DiningRoom,14274,DiningRoom,yes,
+csh116,MA014,motion_area,WorkArea,Bedroom,5502,WorkArea,yes,
+csh116,MA015,motion_area,Bedroom,Bedroom,17104,Bedroom,yes,
+csh116,MA016,motion_area,LivingRoom,LivingRoom,16368,LivingRoom,yes,
+csh116,T101,temperature,Ignore,Ignore,324,,no,excluded: non-movement type or CASAS Ignore
+csh116,T102,temperature,Ignore,FrontDoorTemp,197,,no,excluded: non-movement type or CASAS Ignore
+csh116,T103,temperature,Ignore,BathroomTemp,409,,no,excluded: non-movement type or CASAS Ignore
+csh116,T104,temperature,Ignore,BedroomTemp,318,,no,excluded: non-movement type or CASAS Ignore
+csh116,T105,temperature,Ignore,KitchenTemp,819,,no,excluded: non-movement type or CASAS Ignore
+csh116,T106,temperature,Ignore,KitchenTemp,465,,no,excluded: non-movement type or CASAS Ignore
+csh117,D001,door,Ignore,Ignore,19,,no,excluded: non-movement type or CASAS Ignore
+csh117,D002,door,Kitchen,Refrigerator,263,Kitchen,yes,
+csh117,D003,door,Kitchen,Freezer,1478,Kitchen,yes,
+csh117,D004,door,OutsideDoor,FrontDoor,4224,OutsideDoor,yes,
+csh117,L001,light,OutsideDoor,FrontDoor,2480,OutsideDoor,yes,
+csh117,L002,light,Kitchen,Kitchen,5425,Kitchen,yes,
+csh117,L003,light,Bathroom,Bathroom,1999,Bathroom,yes,
+csh117,L004,light,Bedroom,Bedroom,85,Bedroom,yes,
+csh117,L005,light,LivingRoom,LivingRoom,1,LivingRoom,yes,
+csh117,L006,light,Kitchen,Kitchen,39,Kitchen,yes,
+csh117,LS001,light_sensor,Ignore,Ignore,21521,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS002,light_sensor,Ignore,Ignore,37652,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS003,light_sensor,Ignore,Ignore,30721,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS004,light_sensor,Ignore,Ignore,21373,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS005,light_sensor,Ignore,Ignore,22792,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS006,light_sensor,Ignore,Ignore,26373,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS007,light_sensor,Ignore,Ignore,21466,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS009,light_sensor,Ignore,Ignore,10131,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS010,light_sensor,Ignore,Ignore,17160,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS011,light_sensor,Ignore,Ignore,26884,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS012,light_sensor,Ignore,Ignore,22483,,no,excluded: non-movement type or CASAS Ignore
+csh117,LS013,light_sensor,Ignore,Ignore,41889,,no,excluded: non-movement type or CASAS Ignore
+csh117,M004,motion,OutsideDoor,Entry,22272,OutsideDoor,yes,
+csh117,M009,motion,Kitchen,Kitchen,34453,Kitchen,yes,
+csh117,M010,motion,Kitchen,Kitchen,69976,Kitchen,yes,
+csh117,M012,motion,LivingRoom,Hall,67981,LivingRoom,yes,
+csh117,MA001,motion_area,Bedroom,Bedroom,49340,Bedroom,yes,
+csh117,MA002,motion_area,Bathroom,Bathroom,76657,Bathroom,yes,
+csh117,MA003,motion_area,LivingRoom,LivingRoom,94383,LivingRoom,yes,
+csh117,MA005,motion_area,LivingRoom,LivingRoom,36064,LivingRoom,yes,
+csh117,MA006,motion_area,LivingRoom,LivingRoom,64626,LivingRoom,yes,
+csh117,MA007,motion_area,Bedroom,Bedroom,38256,Bedroom,yes,
+csh117,MA011,motion_area,LivingRoom,LivingRoom,69142,LivingRoom,yes,
+csh117,MA013,motion_area,Kitchen,Kitchen,137777,Kitchen,yes,
+csh117,T101,temperature,Ignore,Ignore,1642,,no,excluded: non-movement type or CASAS Ignore
+csh117,T102,temperature,Ignore,KitchenTemp,14517,,no,excluded: non-movement type or CASAS Ignore
+csh117,T103,temperature,Ignore,FrontDoorTemp,4256,,no,excluded: non-movement type or CASAS Ignore
+csh118,D002,door,OutsideDoor,FrontDoor,402,OutsideDoor,yes,
+csh118,D003,door,Bathroom,BathroomDoor,4,Bathroom,yes,
+csh118,D004,door,Kitchen,Refrigerator,518,Kitchen,yes,
+csh118,D005,door,Kitchen,Freezer,94,Kitchen,yes,
+csh118,L001,light,OutsideDoor,Hall,75,OutsideDoor,yes,
+csh118,L002,light,LivingRoom,LivingRoom,22,LivingRoom,yes,
+csh118,L003,light,DiningRoom,DiningRoom,88,DiningRoom,yes,
+csh118,L004,light,Kitchen,Kitchen,229,Kitchen,yes,
+csh118,L007,light,WorkArea,WorkArea,36,WorkArea,yes,
+csh118,L008,light,Bedroom,Bedroom,50,Bedroom,yes,
+csh118,L009,light,Bathroom,Bathroom,198,Bathroom,yes,
+csh118,L010,light,Bathroom,Bathroom,2,Bathroom,yes,
+csh118,LS001,light_sensor,Ignore,Ignore,2606,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS002,light_sensor,Ignore,Ignore,1939,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS003,light_sensor,Ignore,Ignore,1017,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS004,light_sensor,Ignore,Ignore,3765,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS005,light_sensor,Ignore,Ignore,4400,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS006,light_sensor,Ignore,Ignore,4105,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS007,light_sensor,Ignore,Ignore,3478,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS008,light_sensor,Ignore,Ignore,2079,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS009,light_sensor,Ignore,Ignore,3492,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS010,light_sensor,Ignore,Ignore,1589,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS011,light_sensor,Ignore,Ignore,1166,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS012,light_sensor,Ignore,Ignore,2349,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS013,light_sensor,Ignore,Ignore,1639,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS014,light_sensor,Ignore,Ignore,1622,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS015,light_sensor,Ignore,Ignore,2142,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS016,light_sensor,Ignore,Ignore,3461,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS017,light_sensor,Ignore,Ignore,2338,,no,excluded: non-movement type or CASAS Ignore
+csh118,LS018,light_sensor,Ignore,Ignore,2612,,no,excluded: non-movement type or CASAS Ignore
+csh118,M007,motion,Kitchen,Kitchen,12546,Kitchen,yes,
+csh118,M009,motion,DiningRoom,DiningRoom,17344,DiningRoom,yes,
+csh118,M010,motion,WorkArea,Hall,2204,WorkArea,yes,
+csh118,M011,motion,OutsideDoor,Entry,1148,OutsideDoor,yes,
+csh118,M012,motion,OutsideDoor,Hall,3118,OutsideDoor,yes,
+csh118,M013,motion,Kitchen,Kitchen,3622,Kitchen,yes,
+csh118,M014,motion,OutsideDoor,FrontDoor,2426,OutsideDoor,yes,
+csh118,MA001,motion_area,Bedroom,Bedroom,5726,Bedroom,yes,
+csh118,MA002,motion_area,Bedroom,Closet,3546,Bedroom,yes,
+csh118,MA003,motion_area,Bathroom,Bathroom,1238,Bathroom,yes,
+csh118,MA004,motion_area,Kitchen,Kitchen,16258,Kitchen,yes,
+csh118,MA005,motion_area,DiningRoom,DiningRoom,9880,DiningRoom,yes,
+csh118,MA006,motion_area,Bathroom,Bathroom,9938,Bathroom,yes,
+csh118,MA008,motion_area,WorkArea,Office,1872,WorkArea,yes,
+csh118,MA015,motion_area,Bedroom,Bedroom,2960,Bedroom,yes,
+csh118,MA016,motion_area,LivingRoom,LivingRoom,12024,LivingRoom,yes,
+csh118,MA017,motion_area,Bedroom,Bedroom,3992,Bedroom,yes,
+csh118,MA018,motion_area,LivingRoom,LivingRoom,4870,LivingRoom,yes,
+csh118,T101,temperature,Ignore,Ignore,111,,no,excluded: non-movement type or CASAS Ignore
+csh118,T102,temperature,Ignore,FrontDoorTemp,29,,no,excluded: non-movement type or CASAS Ignore
+csh118,T103,temperature,Ignore,BathroomTemp,206,,no,excluded: non-movement type or CASAS Ignore
+csh118,T104,temperature,Ignore,BathroomTemp,139,,no,excluded: non-movement type or CASAS Ignore
+csh118,T105,temperature,Ignore,KitchenTemp,1108,,no,excluded: non-movement type or CASAS Ignore
+csh118,T106,temperature,Ignore,KitchenTemp,193,,no,excluded: non-movement type or CASAS Ignore
+csh119,D002,door,OutsideDoor,FrontDoor,566,OutsideDoor,yes,
+csh119,D004,door,Kitchen,Refrigerator,794,Kitchen,yes,
+csh119,D005,door,Kitchen,Freezer,54,Kitchen,yes,
+csh119,L001,light,OutsideDoor,FrontDoor,76,OutsideDoor,yes,
+csh119,L004,light,Kitchen,Kitchen,400,Kitchen,yes,
+csh119,L006,light,Kitchen,Kitchen,28,Kitchen,yes,
+csh119,L009,light,DiningRoom,DiningRoom,48,DiningRoom,yes,
+csh119,L010,light,LivingRoom,LivingRoom,188,LivingRoom,yes,
+csh119,LS001,light_sensor,Ignore,Ignore,4151,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS002,light_sensor,Ignore,Ignore,3421,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS003,light_sensor,Ignore,Ignore,1719,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS004,light_sensor,Ignore,Ignore,2295,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS005,light_sensor,Ignore,Ignore,1696,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS006,light_sensor,Ignore,Ignore,1846,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS007,light_sensor,Ignore,Ignore,3293,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS010,light_sensor,Ignore,Ignore,8017,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS011,light_sensor,Ignore,Ignore,3287,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS012,light_sensor,Ignore,Ignore,2328,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS013,light_sensor,Ignore,Ignore,2517,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS014,light_sensor,Ignore,Ignore,2681,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS015,light_sensor,Ignore,Ignore,2634,,no,excluded: non-movement type or CASAS Ignore
+csh119,LS016,light_sensor,Ignore,Ignore,2792,,no,excluded: non-movement type or CASAS Ignore
+csh119,M001,motion,Kitchen,Kitchen,10592,Kitchen,yes,
+csh119,M002,motion,Kitchen,Kitchen,5634,Kitchen,yes,
+csh119,M003,motion,OutsideDoor,Entry,1796,OutsideDoor,yes,
+csh119,M004,motion,LivingRoom,Hall,3196,LivingRoom,yes,
+csh119,M005,motion,Bedroom,Closet,3492,Bedroom,yes,
+csh119,MA006,motion_area,Bathroom,Bathroom,5268,Bathroom,yes,
+csh119,MA007,motion_area,Bedroom,Bedroom,9234,Bedroom,yes,
+csh119,MA010,motion_area,Bathroom,Bathroom,21262,Bathroom,yes,
+csh119,MA011,motion_area,Kitchen,Kitchen,7936,Kitchen,yes,
+csh119,MA012,motion_area,LivingRoom,LivingRoom,2600,LivingRoom,yes,
+csh119,MA013,motion_area,DiningRoom,DiningRoom,3762,DiningRoom,yes,
+csh119,MA014,motion_area,WorkArea,Bedroom,4786,WorkArea,yes,
+csh119,MA015,motion_area,Bedroom,Bed,5393,Bedroom,yes,
+csh119,MA016,motion_area,LivingRoom,LivingRoom,5636,LivingRoom,yes,
+csh119,T101,temperature,Ignore,Ignore,125,,no,excluded: non-movement type or CASAS Ignore
+csh119,T102,temperature,Ignore,FrontDoorTemp,188,,no,excluded: non-movement type or CASAS Ignore
+csh119,T103,temperature,Ignore,BathroomTemp,256,,no,excluded: non-movement type or CASAS Ignore
+csh119,T105,temperature,Ignore,KitchenTemp,2866,,no,excluded: non-movement type or CASAS Ignore
+csh119,T106,temperature,Ignore,KitchenTemp,125,,no,excluded: non-movement type or CASAS Ignore
+csh120,D002,door,OutsideDoor,FrontDoor,1380,OutsideDoor,yes,
+csh120,D004,door,Kitchen,Refrigerator,37,Kitchen,yes,
+csh120,L001,light,OutsideDoor,FrontDoor,142,OutsideDoor,yes,
+csh120,L002,light,LivingRoom,LivingRoom,6,LivingRoom,yes,
+csh120,L003,light,Kitchen,Kitchen,134,Kitchen,yes,
+csh120,L004,light,Kitchen,Kitchen,164,Kitchen,yes,
+csh120,L005,light,Bathroom,Bathroom,899,Bathroom,yes,
+csh120,L006,light,Bathroom,Bathroom,110,Bathroom,yes,
+csh120,L007,light,Bedroom,Bedroom,97,Bedroom,yes,
+csh120,LS001,light_sensor,Ignore,Ignore,2637,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS002,light_sensor,Ignore,Ignore,3847,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS003,light_sensor,Ignore,Ignore,2892,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS004,light_sensor,Ignore,Ignore,3691,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS005,light_sensor,Ignore,Ignore,4290,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS006,light_sensor,Ignore,Ignore,6111,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS007,light_sensor,Ignore,Ignore,2786,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS008,light_sensor,Ignore,Ignore,5343,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS009,light_sensor,Ignore,Ignore,4506,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS010,light_sensor,Ignore,Ignore,4540,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS011,light_sensor,Ignore,Ignore,3863,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS015,light_sensor,Ignore,Ignore,5567,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS016,light_sensor,Ignore,Ignore,10205,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS017,light_sensor,Ignore,Ignore,7006,,no,excluded: non-movement type or CASAS Ignore
+csh120,LS018,light_sensor,Ignore,Ignore,6889,,no,excluded: non-movement type or CASAS Ignore
+csh120,M001,motion,OutsideDoor,Entry,6410,OutsideDoor,yes,
+csh120,M002,motion,LivingRoom,Hall,5580,LivingRoom,yes,
+csh120,M003,motion,LivingRoom,Chair,1954,LivingRoom,yes,
+csh120,M004,motion,LivingRoom,LivingRoom,4906,LivingRoom,yes,
+csh120,M005,motion,DiningRoom,DiningRoom,6550,DiningRoom,yes,
+csh120,M006,motion,WorkArea,WorkArea,17862,WorkArea,yes,
+csh120,M007,motion,LivingRoom,Chair,328,LivingRoom,yes,
+csh120,M008,motion,Kitchen,Kitchen,11746,Kitchen,yes,
+csh120,M009,motion,Bedroom,Hall,13056,Bedroom,yes,
+csh120,M010,motion,Bedroom,Bed,15180,Bedroom,yes,
+csh120,M011,motion,Bedroom,Hall,7788,Bedroom,yes,
+csh120,MA015,motion_area,LivingRoom,LivingRoom,15708,LivingRoom,yes,
+csh120,MA016,motion_area,Bedroom,Bedroom,55923,Bedroom,yes,
+csh120,MA017,motion_area,Bathroom,Bathroom,35236,Bathroom,yes,
+csh120,MA018,motion_area,Kitchen,Kitchen,18186,Kitchen,yes,
+csh120,T101,temperature,Ignore,Ignore,250,,no,excluded: non-movement type or CASAS Ignore
+csh120,T102,temperature,Ignore,FrontDoorTemp,399,,no,excluded: non-movement type or CASAS Ignore
+csh120,T103,temperature,Ignore,BathroomTemp,271,,no,excluded: non-movement type or CASAS Ignore
+csh120,T104,temperature,Ignore,KitchenTemp,1709,,no,excluded: non-movement type or CASAS Ignore
+csh121,D002,door,OutsideDoor,FrontDoor,396,OutsideDoor,yes,
+csh121,D004,door,Bathroom,BathroomDoor,114,Bathroom,yes,
+csh121,LS001,light_sensor,Ignore,Ignore,756,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS002,light_sensor,Ignore,Ignore,1174,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS003,light_sensor,Ignore,Ignore,1016,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS004,light_sensor,Ignore,Ignore,562,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS005,light_sensor,Ignore,Ignore,998,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS006,light_sensor,Ignore,Ignore,710,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS007,light_sensor,Ignore,Ignore,1084,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS008,light_sensor,Ignore,Ignore,617,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS009,light_sensor,Ignore,Ignore,1322,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS010,light_sensor,Ignore,Ignore,562,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS011,light_sensor,Ignore,Ignore,2966,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS012,light_sensor,Ignore,Ignore,704,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS013,light_sensor,Ignore,Ignore,709,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS014,light_sensor,Ignore,Ignore,789,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS015,light_sensor,Ignore,Ignore,820,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS016,light_sensor,Ignore,Ignore,1406,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS017,light_sensor,Ignore,Ignore,851,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS018,light_sensor,Ignore,Ignore,3886,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS019,light_sensor,Ignore,Ignore,1383,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS020,light_sensor,Ignore,Ignore,2738,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS021,light_sensor,Ignore,Ignore,1608,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS022,light_sensor,Ignore,Ignore,1174,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS023,light_sensor,Ignore,Ignore,5858,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS024,light_sensor,Ignore,Ignore,991,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS025,light_sensor,Ignore,Ignore,4169,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS026,light_sensor,Ignore,Ignore,771,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS027,light_sensor,Ignore,Ignore,615,,no,excluded: non-movement type or CASAS Ignore
+csh121,LS028,light_sensor,Ignore,Ignore,5081,,no,excluded: non-movement type or CASAS Ignore
+csh121,M001,motion,LivingRoom,Chair,2330,LivingRoom,yes,
+csh121,M002,motion,OutsideDoor,Hall,2216,OutsideDoor,yes,
+csh121,M003,motion,OutsideDoor,Entry,1264,OutsideDoor,yes,
+csh121,M004,motion,LivingRoom,Chair,726,LivingRoom,yes,
+csh121,M005,motion,LivingRoom,LivingRoom,2362,LivingRoom,yes,
+csh121,M006,motion,WorkArea,WorkArea,1336,WorkArea,yes,
+csh121,M007,motion,Bedroom,Hall,2154,Bedroom,yes,
+csh121,M008,motion,LivingRoom,LivingRoom,592,LivingRoom,yes,
+csh121,M009,motion,DiningRoom,DiningRoom,6372,DiningRoom,yes,
+csh121,M010,motion,LivingRoom,Chair,352,LivingRoom,yes,
+csh121,M011,motion,Kitchen,Kitchen,8534,Kitchen,yes,
+csh121,M012,motion,LivingRoom,Hall,1396,LivingRoom,yes,
+csh121,M013,motion,LivingRoom,LivingRoom,1168,LivingRoom,yes,
+csh121,M014,motion,LivingRoom,LivingRoom,906,LivingRoom,yes,
+csh121,M015,motion,DiningRoom,DiningRoom,1158,DiningRoom,yes,
+csh121,M016,motion,Bedroom,Closet,2920,Bedroom,yes,
+csh121,M017,motion,LivingRoom,Hall,2162,LivingRoom,yes,
+csh121,M018,motion,Kitchen,Kitchen,11474,Kitchen,yes,
+csh121,MA019,motion_area,Bedroom,Hall,2708,Bedroom,yes,
+csh121,MA020,motion_area,DiningRoom,DiningRoom,8362,DiningRoom,yes,
+csh121,MA021,motion_area,WorkArea,Closet,5530,WorkArea,yes,
+csh121,MA022,motion_area,LivingRoom,LivingRoom,2840,LivingRoom,yes,
+csh121,MA023,motion_area,Bathroom,Bathroom,13348,Bathroom,yes,
+csh121,MA024,motion_area,LivingRoom,LivingRoom,2808,LivingRoom,yes,
+csh121,MA025,motion_area,Bathroom,Bathroom,9188,Bathroom,yes,
+csh121,MA026,motion_area,Bedroom,Bedroom,2074,Bedroom,yes,
+csh121,MA027,motion_area,Bedroom,Bedroom,3508,Bedroom,yes,
+csh121,MA028,motion_area,Kitchen,Kitchen,22350,Kitchen,yes,
+csh121,T101,temperature,Ignore,Ignore,136,,no,excluded: non-movement type or CASAS Ignore
+csh121,T102,temperature,Ignore,FrontDoorTemp,111,,no,excluded: non-movement type or CASAS Ignore
+csh121,T103,temperature,Ignore,BathroomTemp,98,,no,excluded: non-movement type or CASAS Ignore
+csh121,T104,temperature,Ignore,BathroomTemp,190,,no,excluded: non-movement type or CASAS Ignore
+csh121,T106,temperature,Ignore,LivingRoomTemp,179,,no,excluded: non-movement type or CASAS Ignore
+csh121,T107,temperature,Ignore,KitchenTemp,287,,no,excluded: non-movement type or CASAS Ignore
+csh121,T108,temperature,Ignore,LivingRoomTemp,314,,no,excluded: non-movement type or CASAS Ignore
+csh121,T109,temperature,Ignore,BedroomTemp,111,,no,excluded: non-movement type or CASAS Ignore
+csh121,T110,temperature,Ignore,DiningRoomTemp,143,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS001,light_sensor,Ignore,Ignore,900,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS002,light_sensor,Ignore,Ignore,1394,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS003,light_sensor,Ignore,Ignore,2278,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS004,light_sensor,Ignore,Ignore,2652,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS005,light_sensor,Ignore,Ignore,5974,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS006,light_sensor,Ignore,Ignore,2289,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS007,light_sensor,Ignore,Ignore,2379,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS008,light_sensor,Ignore,Ignore,2630,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS009,light_sensor,Ignore,Ignore,2918,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS010,light_sensor,Ignore,Ignore,4031,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS011,light_sensor,Ignore,Ignore,5265,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS012,light_sensor,Ignore,Ignore,4080,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS013,light_sensor,Ignore,Ignore,627,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS014,light_sensor,Ignore,Ignore,1957,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS015,light_sensor,Ignore,Ignore,2374,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS016,light_sensor,Ignore,Ignore,3087,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS017,light_sensor,Ignore,Ignore,1917,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS018,light_sensor,Ignore,Ignore,1997,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS019,light_sensor,Ignore,Ignore,2378,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS020,light_sensor,Ignore,Ignore,2101,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS021,light_sensor,Ignore,Ignore,2230,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS022,light_sensor,Ignore,Ignore,2257,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS023,light_sensor,Ignore,Ignore,4686,,no,excluded: non-movement type or CASAS Ignore
+csh122,LS024,light_sensor,Ignore,Ignore,2069,,no,excluded: non-movement type or CASAS Ignore
+csh122,M001,motion,OutsideDoor,Entry,1798,OutsideDoor,yes,
+csh122,M002,motion,OutsideDoor,Hall,1632,OutsideDoor,yes,
+csh122,M003,motion,Bedroom,Hall,3794,Bedroom,yes,
+csh122,M004,motion,Bedroom,Bedroom,6538,Bedroom,yes,
+csh122,M006,motion,Bedroom,Bedroom,4090,Bedroom,yes,
+csh122,M007,motion,Bedroom,Bed,7946,Bedroom,yes,
+csh122,M008,motion,Bedroom,Bedroom,3942,Bedroom,yes,
+csh122,M009,motion,Kitchen,Hall,4976,Kitchen,yes,
+csh122,M010,motion,Kitchen,Kitchen,12618,Kitchen,yes,
+csh122,M012,motion,Kitchen,Kitchen,10214,Kitchen,yes,
+csh122,M014,motion,WorkArea,Hall,2606,WorkArea,yes,
+csh122,M015,motion,DiningRoom,DiningRoom,4360,DiningRoom,yes,
+csh122,M016,motion,Kitchen,DiningRoom,5844,Kitchen,yes,
+csh122,M017,motion,LivingRoom,LivingRoom,586,LivingRoom,yes,
+csh122,M018,motion,LivingRoom,LivingRoom,944,LivingRoom,yes,
+csh122,M020,motion,LivingRoom,Chair,404,LivingRoom,yes,
+csh122,M021,motion,LivingRoom,Chair,1224,LivingRoom,yes,
+csh122,M022,motion,WorkArea,WorkArea,3290,WorkArea,yes,
+csh122,M024,motion,Kitchen,Refrigerator,2990,Kitchen,yes,
+csh122,MA005,motion_area,Bathroom,Bathroom,17582,Bathroom,yes,
+csh122,MA011,motion_area,Kitchen,Kitchen,15220,Kitchen,yes,
+csh122,MA013,motion_area,Bathroom,Bathroom,1322,Bathroom,yes,
+csh122,MA019,motion_area,LivingRoom,LivingRoom,2802,LivingRoom,yes,
+csh122,MA023,motion_area,Office,WorkArea,13214,Office,yes,
+csh122,T101,temperature,Ignore,Ignore,594,,no,excluded: non-movement type or CASAS Ignore
+csh122,T102,temperature,Ignore,FrontDoorTemp,107,,no,excluded: non-movement type or CASAS Ignore
+csh122,T103,temperature,Ignore,BathroomTemp,185,,no,excluded: non-movement type or CASAS Ignore
+csh122,T104,temperature,Ignore,BathroomTemp,155,,no,excluded: non-movement type or CASAS Ignore
+csh122,T105,temperature,Ignore,KitchenTemp,376,,no,excluded: non-movement type or CASAS Ignore
+csh122,T106,temperature,Ignore,LivingRoomTemp,408,,no,excluded: non-movement type or CASAS Ignore
+csh122,T107,temperature,Ignore,BedroomTemp,972,,no,excluded: non-movement type or CASAS Ignore
+csh122,T108,temperature,Ignore,WorkAreaTemp,630,,no,excluded: non-movement type or CASAS Ignore
+csh122,T109,temperature,Ignore,KitchenTemp,835,,no,excluded: non-movement type or CASAS Ignore
+csh123,D002,door,OutsideDoor,FrontDoor,480,OutsideDoor,yes,
+csh123,LS001,light_sensor,Ignore,Ignore,4151,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS002,light_sensor,Ignore,Ignore,3901,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS003,light_sensor,Ignore,Ignore,1720,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS004,light_sensor,Ignore,Ignore,1864,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS006,light_sensor,Ignore,Ignore,4807,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS007,light_sensor,Ignore,Ignore,4508,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS011,light_sensor,Ignore,Ignore,6641,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS012,light_sensor,Ignore,Ignore,2135,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS013,light_sensor,Ignore,Ignore,2679,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS014,light_sensor,Ignore,Ignore,2561,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS015,light_sensor,Ignore,Ignore,3611,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS016,light_sensor,Ignore,Ignore,2167,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS017,light_sensor,Ignore,Ignore,1664,,no,excluded: non-movement type or CASAS Ignore
+csh123,LS018,light_sensor,Ignore,Ignore,418,,no,excluded: non-movement type or CASAS Ignore
+csh123,M001,motion,Kitchen,Kitchen,8832,Kitchen,yes,
+csh123,M002,motion,Kitchen,Kitchen,11254,Kitchen,yes,
+csh123,M003,motion,OutsideDoor,Entry,2212,OutsideDoor,yes,
+csh123,M004,motion,LivingRoom,Hall,2864,LivingRoom,yes,
+csh123,M017,motion,Kitchen,Refrigerator,2388,Kitchen,yes,
+csh123,M018,motion,Kitchen,Freezer,674,Kitchen,yes,
+csh123,MA006,motion_area,Bathroom,Bathroom,8802,Bathroom,yes,
+csh123,MA007,motion_area,Bedroom,Bedroom,20026,Bedroom,yes,
+csh123,MA011,motion_area,Kitchen,Kitchen,18818,Kitchen,yes,
+csh123,MA012,motion_area,LivingRoom,LivingRoom,212,LivingRoom,yes,
+csh123,MA013,motion_area,DiningRoom,DiningRoom,3320,DiningRoom,yes,
+csh123,MA014,motion_area,Bedroom,Bedroom,11106,Bedroom,yes,
+csh123,MA015,motion_area,Bedroom,Bedroom,13692,Bedroom,yes,
+csh123,MA016,motion_area,LivingRoom,LivingRoom,2156,LivingRoom,yes,
+csh123,T101,temperature,Ignore,Ignore,473,,no,excluded: non-movement type or CASAS Ignore
+csh123,T102,temperature,Ignore,FrontDoorTemp,170,,no,excluded: non-movement type or CASAS Ignore
+csh123,T103,temperature,Ignore,BathroomTemp,331,,no,excluded: non-movement type or CASAS Ignore
+csh123,T104,temperature,Ignore,BedroomTemp,557,,no,excluded: non-movement type or CASAS Ignore
+csh123,T106,temperature,Ignore,KitchenTemp,559,,no,excluded: non-movement type or CASAS Ignore
+csh123,T107,temperature,Ignore,LivingRoomTemp,612,,no,excluded: non-movement type or CASAS Ignore
+csh124,D002,door,OutsideDoor,FrontDoor,204,OutsideDoor,yes,
+csh124,LS001,light_sensor,Ignore,Ignore,3333,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS002,light_sensor,Ignore,Ignore,2550,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS003,light_sensor,Ignore,Ignore,4158,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS004,light_sensor,Ignore,Ignore,3860,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS006,light_sensor,Ignore,Ignore,4188,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS007,light_sensor,Ignore,Ignore,4340,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS008,light_sensor,Ignore,Ignore,4101,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS009,light_sensor,Ignore,Ignore,3871,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS010,light_sensor,Ignore,Ignore,3319,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS011,light_sensor,Ignore,Ignore,4156,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS013,light_sensor,Ignore,Ignore,14,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS018,light_sensor,Ignore,Ignore,2179,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS019,light_sensor,Ignore,Ignore,4232,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS020,light_sensor,Ignore,Ignore,3711,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS021,light_sensor,Ignore,Ignore,4286,,no,excluded: non-movement type or CASAS Ignore
+csh124,LS024,light_sensor,Ignore,Ignore,3735,,no,excluded: non-movement type or CASAS Ignore
+csh124,M001,motion,Hall,Hall,858,Hall,yes,
+csh124,M002,motion,OutsideDoor,Entry,1196,OutsideDoor,yes,
+csh124,M003,motion,LivingRoom,Hall,282,LivingRoom,yes,
+csh124,M004,motion,Kitchen,Kitchen,706,Kitchen,yes,
+csh124,M006,motion,LivingRoom,LivingRoom,188,LivingRoom,yes,
+csh124,M007,motion,DiningRoom,DiningRoom,308,DiningRoom,yes,
+csh124,M008,motion,LivingRoom,Chair,294,LivingRoom,yes,
+csh124,M009,motion,Bedroom,Bed,1570,Bedroom,yes,
+csh124,M010,motion,Bedroom,Hall,762,Bedroom,yes,
+csh124,M011,motion,LivingRoom,Chair,326,LivingRoom,yes,
+csh124,M013,motion,Kitchen,Refrigerator,166,Kitchen,yes,
+csh124,MA018,motion_area,Bathroom,Bathroom,2100,Bathroom,yes,
+csh124,MA019,motion_area,LivingRoom,LivingRoom,642,LivingRoom,yes,
+csh124,MA020,motion_area,Office,Office,430,Office,yes,
+csh124,MA021,motion_area,Bedroom,Bedroom,2798,Bedroom,yes,
+csh124,MA024,motion_area,Kitchen,Kitchen,544,Kitchen,yes,
+csh124,T101,temperature,Ignore,Ignore,1060,,no,excluded: non-movement type or CASAS Ignore
+csh124,T102,temperature,Ignore,FrontDoorTemp,330,,no,excluded: non-movement type or CASAS Ignore
+csh124,T103,temperature,Ignore,BathroomTemp,175,,no,excluded: non-movement type or CASAS Ignore
+csh124,T105,temperature,Ignore,LivingRoomTemp,1252,,no,excluded: non-movement type or CASAS Ignore
+csh124,T106,temperature,Ignore,LivingRoomTemp,647,,no,excluded: non-movement type or CASAS Ignore
+csh125,D002,door,OutsideDoor,FrontDoor,1498,OutsideDoor,yes,
+csh125,M001,motion,LivingRoom,Hall,5566,LivingRoom,yes,
+csh125,M002,motion,Bedroom,Closet,6828,Bedroom,yes,
+csh125,M003,motion,LivingRoom,Hall,9116,LivingRoom,yes,
+csh125,M004,motion,Bedroom,Hall,2870,Bedroom,yes,
+csh125,M007,motion,Kitchen,Kitchen,23280,Kitchen,yes,
+csh125,M008,motion,Kitchen,Kitchen,22718,Kitchen,yes,
+csh125,M011,motion,OutsideDoor,Entry,4724,OutsideDoor,yes,
+csh125,M022,motion,Kitchen,Refrigerator,3678,Kitchen,yes,
+csh125,MA015,motion_area,LivingRoom,LivingRoom,22882,LivingRoom,yes,
+csh125,MA016,motion_area,LivingRoom,LivingRoom,610,LivingRoom,yes,
+csh125,MA017,motion_area,Kitchen,Kitchen,51290,Kitchen,yes,
+csh125,MA018,motion_area,Bathroom,Bathroom,692,Bathroom,yes,
+csh125,MA019,motion_area,Office,Office,6790,Office,yes,
+csh125,MA020,motion_area,Bathroom,Bathroom,41064,Bathroom,yes,
+csh125,MA021,motion_area,Bedroom,Bedroom,12622,Bedroom,yes,
+csh126,D101,door,OutsideDoor,FrontDoor,980,OutsideDoor,yes,
+csh126,LS001,light_sensor,Ignore,Ignore,3738,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS002,light_sensor,Ignore,Ignore,3885,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS003,light_sensor,Ignore,Ignore,5772,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS004,light_sensor,Ignore,Ignore,3774,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS005,light_sensor,Ignore,Ignore,7376,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS006,light_sensor,Ignore,Ignore,5094,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS007,light_sensor,Ignore,Ignore,6655,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS008,light_sensor,Ignore,Ignore,4228,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS009,light_sensor,Ignore,Ignore,5863,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS010,light_sensor,Ignore,Ignore,3635,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS011,light_sensor,Ignore,Ignore,3343,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS012,light_sensor,Ignore,Ignore,3429,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS013,light_sensor,Ignore,Ignore,7257,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS014,light_sensor,Ignore,Ignore,7492,,no,excluded: non-movement type or CASAS Ignore
+csh126,LS015,light_sensor,Ignore,Ignore,895,,no,excluded: non-movement type or CASAS Ignore
+csh126,M001,motion,OutsideDoor,Entry,2010,OutsideDoor,yes,
+csh126,M002,motion,OutsideDoor,Hall,6160,OutsideDoor,yes,
+csh126,M003,motion,Kitchen,Kitchen,10578,Kitchen,yes,
+csh126,M004,motion,Kitchen,Kitchen,5730,Kitchen,yes,
+csh126,M012,motion,Bedroom,Closet,4276,Bedroom,yes,
+csh126,M013,motion,Bedroom,Hall,12413,Bedroom,yes,
+csh126,M015,motion,Kitchen,Refrigerator,1072,Kitchen,yes,
+csh126,MA005,motion_area,Kitchen,Kitchen,15706,Kitchen,yes,
+csh126,MA006,motion_area,LivingRoom,LivingRoom,6006,LivingRoom,yes,
+csh126,MA007,motion_area,LivingRoom,Chair,10429,LivingRoom,yes,
+csh126,MA008,motion_area,LivingRoom,LivingRoom,4173,LivingRoom,yes,
+csh126,MA009,motion_area,LivingRoom,LivingRoom,8659,LivingRoom,yes,
+csh126,MA010,motion_area,Bedroom,Bedroom,7124,Bedroom,yes,
+csh126,MA011,motion_area,WorkArea,Bedroom,3508,WorkArea,yes,
+csh126,MA014,motion_area,Bathroom,Bathroom,13954,Bathroom,yes,
+csh126,T101,temperature,Ignore,FrontDoorTemp,146,,no,excluded: non-movement type or CASAS Ignore
+csh126,T102,temperature,Ignore,FrontDoorTemp,139,,no,excluded: non-movement type or CASAS Ignore
+csh126,T103,temperature,Ignore,BathroomTemp,526,,no,excluded: non-movement type or CASAS Ignore
+csh126,T105,temperature,Ignore,Ignore,199,,no,excluded: non-movement type or CASAS Ignore
+csh127,D101,door,OutsideDoor,FrontDoor,720,OutsideDoor,yes,
+csh127,LS001,light_sensor,Ignore,Ignore,1321,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS002,light_sensor,Ignore,Ignore,1534,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS003,light_sensor,Ignore,Ignore,2792,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS004,light_sensor,Ignore,Ignore,2370,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS005,light_sensor,Ignore,Ignore,2019,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS006,light_sensor,Ignore,Ignore,2007,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS007,light_sensor,Ignore,Ignore,1541,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS008,light_sensor,Ignore,Ignore,1798,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS009,light_sensor,Ignore,Ignore,1313,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS010,light_sensor,Ignore,Ignore,3282,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS011,light_sensor,Ignore,Ignore,1793,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS012,light_sensor,Ignore,Ignore,2979,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS013,light_sensor,Ignore,Ignore,1508,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS014,light_sensor,Ignore,Ignore,2315,,no,excluded: non-movement type or CASAS Ignore
+csh127,LS015,light_sensor,Ignore,Ignore,2827,,no,excluded: non-movement type or CASAS Ignore
+csh127,M001,motion,OutsideDoor,Entry,1592,OutsideDoor,yes,
+csh127,M002,motion,Hall,Hall,2156,Hall,yes,
+csh127,M003,motion,Kitchen,Stove,4174,Kitchen,yes,
+csh127,M004,motion,Kitchen,Kitchen,2994,Kitchen,yes,
+csh127,M005,motion,DiningRoom,DiningRoom,1226,DiningRoom,yes,
+csh127,M006,motion,LivingRoom,LivingRoom,906,LivingRoom,yes,
+csh127,M007,motion,LivingRoom,LivingRoom,40,LivingRoom,yes,
+csh127,M009,motion,Office,Hall,2454,Office,yes,
+csh127,M010,motion,Office,Office,13512,Office,yes,
+csh127,M013,motion,Bedroom,Hall,2166,Bedroom,yes,
+csh127,MA008,motion_area,LivingRoom,LivingRoom,1081,LivingRoom,yes,
+csh127,MA011,motion_area,Office,Office,3069,Office,yes,
+csh127,MA012,motion_area,Bathroom,Bathroom,6816,Bathroom,yes,
+csh127,MA014,motion_area,Bedroom,Bedroom,4758,Bedroom,yes,
+csh127,MA015,motion_area,Bedroom,Bedroom,3898,Bedroom,yes,
+csh127,T101,temperature,Ignore,FrontDoorTemp,112,,no,excluded: non-movement type or CASAS Ignore
+csh127,T102,temperature,Ignore,BathroomTemp,196,,no,excluded: non-movement type or CASAS Ignore
+csh127,T103,temperature,Ignore,HallTemp,525,,no,excluded: non-movement type or CASAS Ignore
+csh127,T104,temperature,Ignore,LivingRoomTemp,611,,no,excluded: non-movement type or CASAS Ignore
+csh127,T105,temperature,Ignore,KitchenTemp,288,,no,excluded: non-movement type or CASAS Ignore
+csh128,D101,door,OutsideDoor,FrontDoor,3116,OutsideDoor,yes,
+csh128,LS002,light_sensor,Ignore,Ignore,9986,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS003,light_sensor,Ignore,Ignore,11418,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS004,light_sensor,Ignore,Ignore,11741,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS005,light_sensor,Ignore,Ignore,7450,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS006,light_sensor,Ignore,Ignore,4185,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS008,light_sensor,Ignore,Ignore,9083,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS009,light_sensor,Ignore,Ignore,3701,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS010,light_sensor,Ignore,Ignore,15212,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS011,light_sensor,Ignore,Ignore,12543,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS012,light_sensor,Ignore,Ignore,5179,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS013,light_sensor,Ignore,Ignore,11276,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS014,light_sensor,Ignore,Ignore,8583,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS015,light_sensor,Ignore,Ignore,12523,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS016,light_sensor,Ignore,Ignore,9528,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS017,light_sensor,Ignore,Ignore,14615,,no,excluded: non-movement type or CASAS Ignore
+csh128,LS021,light_sensor,Ignore,Ignore,937,,no,excluded: non-movement type or CASAS Ignore
+csh128,M008,motion,LivingRoom,Hall,18064,LivingRoom,yes,
+csh128,M009,motion,OutsideDoor,Hall,7506,OutsideDoor,yes,
+csh128,M010,motion,WorkArea,WorkArea,55011,WorkArea,yes,
+csh128,M011,motion,Kitchen,Kitchen,35764,Kitchen,yes,
+csh128,M014,motion,Hall,Hall,24507,Hall,yes,
+csh128,M015,motion,Kitchen,Kitchen,38375,Kitchen,yes,
+csh128,M016,motion,Kitchen,Kitchen,22408,Kitchen,yes,
+csh128,M021,motion,Kitchen,Refrigerator,1474,Kitchen,yes,
+csh128,MA002,motion_area,LivingRoom,LivingRoom,26115,LivingRoom,yes,
+csh128,MA003,motion_area,LivingRoom,LivingRoom,35993,LivingRoom,yes,
+csh128,MA004,motion_area,Bedroom,Bedroom,49456,Bedroom,yes,
+csh128,MA005,motion_area,Bedroom,Bed,21664,Bedroom,yes,
+csh128,MA006,motion_area,Bedroom,Bedroom,6608,Bedroom,yes,
+csh128,MA012,motion_area,Bedroom,Closet,9454,Bedroom,yes,
+csh128,MA013,motion_area,Bathroom,Bathroom,16810,Bathroom,yes,
+csh128,MA017,motion_area,DiningRoom,DiningRoom,42807,DiningRoom,yes,
+csh128,T101,temperature,Ignore,FrontDoorTemp,277,,no,excluded: non-movement type or CASAS Ignore
+csh128,T102,temperature,Ignore,BathroomTemp,1684,,no,excluded: non-movement type or CASAS Ignore
+csh128,T104,temperature,Ignore,LivingRoomTemp,1314,,no,excluded: non-movement type or CASAS Ignore
+csh128,T105,temperature,Ignore,KitchenTemp,29,,no,excluded: non-movement type or CASAS Ignore
+csh129,D002,door,OutsideDoor,FrontDoor,510,OutsideDoor,yes,
+csh129,LS001,light_sensor,Ignore,Ignore,2376,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS002,light_sensor,Ignore,Ignore,3725,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS003,light_sensor,Ignore,Ignore,2589,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS004,light_sensor,Ignore,Ignore,4983,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS005,light_sensor,Ignore,Ignore,5026,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS006,light_sensor,Ignore,Ignore,3813,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS007,light_sensor,Ignore,Ignore,3404,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS008,light_sensor,Ignore,Ignore,3933,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS009,light_sensor,Ignore,Ignore,3293,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS010,light_sensor,Ignore,Ignore,5620,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS011,light_sensor,Ignore,Ignore,4191,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS012,light_sensor,Ignore,Ignore,6280,,no,excluded: non-movement type or CASAS Ignore
+csh129,LS013,light_sensor,Ignore,Ignore,1845,,no,excluded: non-movement type or CASAS Ignore
+csh129,M001,motion,OutsideDoor,Entry,1858,OutsideDoor,yes,
+csh129,M002,motion,Kitchen,Kitchen,20277,Kitchen,yes,
+csh129,M003,motion,Kitchen,Kitchen,12846,Kitchen,yes,
+csh129,M005,motion,LivingRoom,Hall,9034,LivingRoom,yes,
+csh129,M010,motion,LivingRoom,WorkArea,18612,LivingRoom,yes,
+csh129,M013,motion,Kitchen,Refrigerator,2180,Kitchen,yes,
+csh129,MA004,motion_area,Kitchen,Kitchen,26502,Kitchen,yes,
+csh129,MA006,motion_area,LivingRoom,WorkArea,8944,LivingRoom,yes,
+csh129,MA007,motion_area,LivingRoom,Bedroom,6372,LivingRoom,yes,
+csh129,MA008,motion_area,Bedroom,LivingRoom,15679,Bedroom,yes,
+csh129,MA009,motion_area,LivingRoom,WorkArea,5336,LivingRoom,yes,
+csh129,MA011,motion_area,Bedroom,LivingRoom,12508,Bedroom,yes,
+csh129,MA012,motion_area,Bathroom,Bathroom,20020,Bathroom,yes,
+csh129,T101,temperature,Ignore,KitchenTemp,282,,no,excluded: non-movement type or CASAS Ignore
+csh129,T102,temperature,Ignore,FrontDoorTemp,194,,no,excluded: non-movement type or CASAS Ignore
+csh129,T104,temperature,Ignore,LivingRoomTemp,705,,no,excluded: non-movement type or CASAS Ignore
+csh129,T105,temperature,Ignore,Ignore,710,,no,excluded: non-movement type or CASAS Ignore
+csh130,D002,door,OutsideDoor,FrontDoor,1546,OutsideDoor,yes,
+csh130,LS001,light_sensor,Ignore,Ignore,2738,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS002,light_sensor,Ignore,Ignore,2293,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS003,light_sensor,Ignore,Ignore,1836,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS004,light_sensor,Ignore,Ignore,1573,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS005,light_sensor,Ignore,Ignore,2925,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS006,light_sensor,Ignore,Ignore,3512,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS007,light_sensor,Ignore,Ignore,3908,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS008,light_sensor,Ignore,Ignore,8044,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS009,light_sensor,Ignore,Ignore,4331,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS010,light_sensor,Ignore,Ignore,3495,,no,excluded: non-movement type or CASAS Ignore
+csh130,LS011,light_sensor,Ignore,Ignore,259,,no,excluded: non-movement type or CASAS Ignore
+csh130,M001,motion,OutsideDoor,Entry,6142,OutsideDoor,yes,
+csh130,M002,motion,Bedroom,Closet,9141,Bedroom,yes,
+csh130,M003,motion,LivingRoom,LivingRoom,7226,LivingRoom,yes,
+csh130,M004,motion,Bedroom,Bed,10304,Bedroom,yes,
+csh130,M005,motion,LivingRoom,Chair,18752,LivingRoom,yes,
+csh130,M006,motion,Kitchen,DiningRoom,4222,Kitchen,yes,
+csh130,M011,motion,Kitchen,Refrigerator,392,Kitchen,yes,
+csh130,MA007,motion_area,Kitchen,Kitchen,3958,Kitchen,yes,
+csh130,MA008,motion_area,Bathroom,Bathroom,24607,Bathroom,yes,
+csh130,MA009,motion_area,LivingRoom,Chair,12778,LivingRoom,yes,
+csh130,MA010,motion_area,Bedroom,Bedroom,22528,Bedroom,yes,
+csh130,T102,temperature,Ignore,FrontDoorTemp,84,,no,excluded: non-movement type or CASAS Ignore
+csh130,T103,temperature,Ignore,BathroomTemp,120,,no,excluded: non-movement type or CASAS Ignore
+csh130,T104,temperature,Ignore,KitchenTemp,144,,no,excluded: non-movement type or CASAS Ignore
+csh130,T106,temperature,Ignore,LivingRoomTemp,543,,no,excluded: non-movement type or CASAS Ignore

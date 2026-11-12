@@ -23,3 +23,14 @@ results/**/checkpoints/
 .idea/
 .DS_Store
 Thumbs.db
+# Harness: saved message bodies and model checkpoints
+results/**/payloads/
+results/**/checkpoint.npz
+results/**/state.json
+
+# Local databases and archives
+*.sqlite
+*.zip
+
+# Regenerated listing from the audit's inventory script
+audit/mappings/sensor_inventory_latest.csv

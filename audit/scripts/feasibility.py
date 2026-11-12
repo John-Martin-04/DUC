@@ -9,7 +9,9 @@ Steps per home
      label is the most common shared label among its labelled events
   4. split each home's labelled windows by time: earliest 70% train,
      next 10% validation, last 20% test
-  5. count windows per class and split
+  5. with --drop-other, drop windows labelled 'other' (after steps 3 and 4,
+     so labels and split periods are the same in both settings)
+  6. count windows per class and split
 
 Then
   * a class is kept if enough homes have it in their test period
@@ -21,7 +23,7 @@ PROPOSAL: review them, then record the final choice in the audit report.
 
 Usage
   python scripts/feasibility.py
-  python scripts/feasibility.py --drop-other      # treat 'other' as excluded
+  python scripts/feasibility.py --drop-other      # drop windows labelled 'other'
   python scripts/feasibility.py --window 120
 """
 
@@ -57,18 +59,22 @@ def windows_for_home(df: pd.DataFrame, lm: dict[str, str], window_s: int,
     unmapped = sorted(r for r in raw if str(r).lower() not in lm)
     shared = df["activity"].str.lower().map(lm)
     shared = shared.where(shared != EXCLUDE)
-    if drop_other:
-        shared = shared.where(shared != "other")
     df = df.assign(label=shared, window=df["ts"].dt.floor(f"{window_s}s"))
 
+    # Label every window with 'other' still in the vote, so a minute that is
+    # mostly 'other' stays 'other' instead of taking a minority label.
     lab = df.dropna(subset=["label"])
     counts = lab.groupby(["window", "label"]).size().rename("n").reset_index()
-    counts = counts.sort_values(["window", "n"]).drop_duplicates("window", keep="last")
+    counts = (counts.sort_values(["window", "n", "label"], ascending=[True, False, True])
+              .drop_duplicates("window", keep="first"))
     win = counts[["window", "label"]].sort_values("window").reset_index(drop=True)
 
+    # Split before dropping 'other', so both settings share the same periods.
     n = len(win)
     a, b = int(n * config.SPLITS[0]), int(n * (config.SPLITS[0] + config.SPLITS[1]))
     win["split"] = ["train"] * a + ["val"] * (b - a) + ["test"] * (n - b)
+    if drop_other:
+        win = win[win["label"] != "other"].reset_index(drop=True)
     win.insert(0, "home", home)
     return win, unmapped
 
@@ -141,7 +147,8 @@ def main() -> None:
     lines = ["# Feasibility", "",
              f"Window {args.window} s, splits {config.SPLITS}, a class counts in a home "
              f"if its test period has at least {config.MIN_TEST_WINDOWS_PER_CLASS} windows. "
-             f"'other' {'excluded' if args.drop_other else 'kept as a class'}.", "",
+             + ("Windows labelled 'other' (majority vote with 'other' included) dropped "
+                "after the split." if args.drop_other else "'other' kept as a class."), "",
              "## Classes", "",
              f"Kept if present in at least {config.MIN_HOME_SHARE_FOR_CLASS:.0%} of homes.", "",
              md_table(presence.rename_axis("class").reset_index()), "",

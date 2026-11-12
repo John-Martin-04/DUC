@@ -26,7 +26,7 @@ Eat_Lunch,eat,
 Eat_Dinner,eat,
 Eating,eat,Aruba name
 Dining_Rm_Activity,eat,"Milan; location-style label, check"
-Drink,drink,Merge into eat if too rare
+Drink,eat,Merge into eat if too rare
 Cook,cook,Split out of Zehtabian's chores: distinctive kitchen pattern
 Cook_Breakfast,cook,
 Cook_Lunch,cook,
@@ -57,3 +57,10 @@ Step_Out,other,Zehtabian: not tracked
 Other_Activity,other,
 Master_Bedroom_Activity,other,Milan; ambiguous (could be sleep or dress)
 Respirate,exclude,Aruba only and rare
+Go_To_Sleep,other,"one home only; transition, treated like Bed_Toilet_Transition"
+Wake_Up,other,"one home only; transition, treated like Bed_Toilet_Transition"
+r1.Sleep,exclude,"resident-specific label: sign of a second resident"
+r1.Cook_Breakfast,exclude,"resident-specific label: sign of a second resident"
+r2.Personal_Hygiene,exclude,"resident-specific label: sign of a second resident"
+r2.Dress,exclude,"resident-specific label: sign of a second resident"
+r2.Eat_Breakfast,exclude,"resident-specific label: sign of a second resident"

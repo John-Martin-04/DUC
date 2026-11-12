@@ -28,7 +28,7 @@ MIN_HOME_SHARE_FOR_CLASS = 0.5       # keep a class only if this share of homes 
 
 # Event handling
 # Sensor types that are device housekeeping, not human activity
-SYSTEM_SENSOR_TYPES = {"battery", "radio", "system"}
+SYSTEM_SENSOR_TYPES = {"battery", "radio", "system", "light_sensor", "temperature"}
 # Intervals longer than this are treated as gaps when measuring labelled time
 MAX_INTERVAL_SECONDS = 1800
 # Gaps worth flagging in the profile

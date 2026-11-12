@@ -61,14 +61,17 @@ def main() -> None:
     sens["keep"] = (~sens["sensor_type"].isin(config.SYSTEM_SENSOR_TYPES)).map({True: "yes", False: "no"})
     sens["note"] = ""
     target = config.MAPPINGS_DIR / "sensor_inventory.csv"
+    check = sens
     if target.exists():
+        # Count from the edited file, not the fresh listing (which has no keep=no edits).
+        check = pd.read_csv(target, dtype=str, keep_default_na=False)
         target = config.MAPPINGS_DIR / "sensor_inventory_latest.csv"
         print(f"\nsensor_inventory.csv already exists (your edits are kept); "
               f"new listing in {target.name}")
     sens.to_csv(target, index=False)
-    empty_rooms = sens[(sens["keep"] == "yes") & (sens["room"] == "")]
-    print(f"\n{len(sens)} sensors; {len(empty_rooms)} kept sensors still need a room "
-          f"(fill 'room' from the floor plans).")
+    empty_rooms = check[(check["keep"].str.strip() == "yes") & (check["room"].str.strip() == "")]
+    print(f"\n{len(check)} sensors in sensor_inventory.csv; {len(empty_rooms)} kept sensors "
+          f"still need a room (fill 'room' from the floor plans).")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,11 @@
+class,homes_with_class,share_of_homes,total_test_windows,keep_class
+eat,28,1.0,4293,True
+personal_hygiene,28,1.0,25355,True
+relax,28,1.0,15710,True
+rest,28,1.0,15045,True
+chores,27,0.96,6737,True
+cook,27,0.96,9758,True
+social,27,0.96,14165,True
+enter_home,25,0.89,1380,True
+leave_home,25,0.89,1558,True
+work,25,0.89,12839,True
