@@ -1,0 +1,2 @@
+{"name": "sample_dropout", "rounds": 4, "fraction": 0.67, "local_epochs": 1, "deadline_s": 8,
+ "dropout_p": 0.4, "min_clients": 1, "seed": 0}

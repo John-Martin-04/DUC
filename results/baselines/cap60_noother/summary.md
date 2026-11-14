@@ -21,3 +21,18 @@ Weakest homes (macro-F1 averaged over seeds):
 | local | csh111 | 0.303 |
 | local | csh101 | 0.425 |
 | local | csh114 | 0.444 |
+
+F1 per class, pooled over homes and seeds (confusion_<setup>.csv shows what each class is mistaken for):
+
+| class | local | central | finetune | test_windows |
+|---|---|---|---|---|
+| chores | 0.337 | 0.224 | 0.397 | 3879 |
+| cook | 0.697 | 0.699 | 0.711 | 6575 |
+| eat | 0.488 | 0.388 | 0.508 | 3317 |
+| enter_home | 0.532 | 0.542 | 0.581 | 694 |
+| leave_home | 0.536 | 0.499 | 0.538 | 738 |
+| personal_hygiene | 0.885 | 0.841 | 0.887 | 12760 |
+| relax | 0.801 | 0.718 | 0.799 | 11155 |
+| rest | 0.848 | 0.823 | 0.858 | 6304 |
+| social | 0.554 | 0.398 | 0.54 | 7425 |
+| work | 0.738 | 0.641 | 0.749 | 7345 |

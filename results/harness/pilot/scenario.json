@@ -1,0 +1,15 @@
+{
+  "rounds": 20,
+  "fraction": 1.0,
+  "local_epochs": 1,
+  "batch_size": 128,
+  "client_lr": 0.05,
+  "deadline_s": 120,
+  "min_clients": 2,
+  "max_retries": 2,
+  "dropout_p": 0.0,
+  "seed": 0,
+  "homes": null,
+  "name": "pilot",
+  "dataset": "pilot5"
+}

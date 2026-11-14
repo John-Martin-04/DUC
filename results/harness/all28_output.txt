@@ -1,0 +1,191 @@
+brokers stopped
+Thu Nov 12 17:05:05 CET 2026
+home broker on 127.0.0.1:18830 (29 accounts)
+fed broker on 127.0.0.1:18840 (30 accounts)
+recording federation traffic
+28 gateways started; logs in /mnt/d/Code/SU/PROJECTS/DUC/results/harness/logs
+csh103: 164838 events, 35.3 MB in 55.9 s
+csh105: 222539 events, 47.3 MB in 75.2 s
+csh106: 259937 events, 55.3 MB in 87.6 s
+csh107: 291162 events, 61.9 MB in 98.1 s
+csh101: 321457 events, 68.0 MB in 108.1 s
+csh108: 357714 events, 76.1 MB in 120.2 s
+csh110: 136774 events, 28.9 MB in 46.6 s
+csh102: 407510 events, 86.7 MB in 136.9 s
+csh104: 478017 events, 101.6 MB in 160.4 s
+csh114: 192543 events, 41.1 MB in 65.2 s
+csh111: 351353 events, 75.0 MB in 118.1 s
+csh118: 164015 events, 34.9 MB in 55.7 s
+csh109: 564481 events, 120.4 MB in 189.0 s
+csh119: 138978 events, 29.6 MB in 47.3 s
+csh123: 152365 events, 32.3 MB in 51.8 s
+csh116: 503748 events, 109.0 MB in 168.9 s
+csh122: 198668 events, 42.2 MB in 67.2 s
+csh112: 660432 events, 140.3 MB in 221.1 s
+csh120: 296184 events, 63.1 MB in 99.7 s
+csh127: 84693 events, 17.8 MB in 29.2 s
+csh126: 186224 events, 39.8 MB in 63.1 s
+csh125: 216228 events, 46.1 MB in 73.1 s
+csh130: 157401 events, 33.6 MB in 53.4 s
+csh129: 213647 events, 45.7 MB in 72.2 s
+csh128: 566396 events, 121.4 MB in 189.7 s
+csh117: 1097800 events, 237.2 MB in 366.9 s
+csh115: 2139213 events, 456.7 MB in 714.1 s
+csh113: 3190876 events, 686.8 MB in 1064.6 s
+csh101: PASS  20316 rows identical (321457 events, 0 duplicates, 0 late)
+csh102: PASS  12992 rows identical (407510 events, 0 duplicates, 0 late)
+csh103: PASS  6582 rows identical (164838 events, 0 duplicates, 0 late)
+csh104: PASS  16667 rows identical (478017 events, 0 duplicates, 0 late)
+csh105: PASS  6753 rows identical (222539 events, 0 duplicates, 0 late)
+csh106: PASS  10122 rows identical (259937 events, 0 duplicates, 0 late)
+csh107: PASS  12373 rows identical (291162 events, 0 duplicates, 0 late)
+csh108: PASS  10909 rows identical (357714 events, 0 duplicates, 0 late)
+csh109: PASS  14041 rows identical (564481 events, 0 duplicates, 0 late)
+csh110: PASS  6398 rows identical (136774 events, 0 duplicates, 0 late)
+csh111: PASS  16717 rows identical (351353 events, 0 duplicates, 0 late)
+csh112: PASS  15600 rows identical (660432 events, 0 duplicates, 0 late)
+csh113: PASS  22045 rows identical (3190876 events, 0 duplicates, 0 late)
+csh114: PASS  5525 rows identical (192543 events, 0 duplicates, 0 late)
+csh115: PASS  16885 rows identical (2139213 events, 0 duplicates, 0 late)
+csh116: PASS  19147 rows identical (503748 events, 0 duplicates, 0 late)
+csh117: PASS  9363 rows identical (1097800 events, 0 duplicates, 0 late)
+csh118: PASS  4983 rows identical (164015 events, 0 duplicates, 0 late)
+csh119: PASS  4803 rows identical (138978 events, 0 duplicates, 0 late)
+csh120: PASS  14994 rows identical (296184 events, 0 duplicates, 0 late)
+csh122: PASS  5963 rows identical (198668 events, 0 duplicates, 0 late)
+csh123: PASS  5555 rows identical (152365 events, 0 duplicates, 0 late)
+csh125: PASS  9754 rows identical (216228 events, 0 duplicates, 0 late)
+csh126: PASS  3769 rows identical (186224 events, 0 duplicates, 0 late)
+csh127: PASS  4714 rows identical (84693 events, 0 duplicates, 0 late)
+csh128: PASS  11621 rows identical (566396 events, 0 duplicates, 0 late)
+csh129: PASS  4838 rows identical (213647 events, 0 duplicates, 0 late)
+csh130: PASS  8010 rows identical (157401 events, 0 duplicates, 0 late)
+all28_fedavg: 28 of 28 gateways online
+round   1: 28/28 updates, mean F1 0.026, worst 0.0025, 2.96 MB, 79.6 s
+round   2: 28/28 updates, mean F1 0.3054, worst 0.1645, 2.96 MB, 3.1 s
+round   3: 28/28 updates, mean F1 0.3944, worst 0.2246, 2.96 MB, 3.3 s
+round   4: 28/28 updates, mean F1 0.4133, worst 0.2317, 2.96 MB, 1.3 s
+round   5: 28/28 updates, mean F1 0.4241, worst 0.2207, 2.96 MB, 3.8 s
+round   6: 28/28 updates, mean F1 0.4278, worst 0.2214, 2.96 MB, 3.2 s
+round   7: 28/28 updates, mean F1 0.4293, worst 0.2254, 2.96 MB, 3.3 s
+round   8: 28/28 updates, mean F1 0.4339, worst 0.219, 2.96 MB, 3.2 s
+round   9: 28/28 updates, mean F1 0.4371, worst 0.2267, 2.96 MB, 3.2 s
+round  10: 28/28 updates, mean F1 0.4421, worst 0.2204, 2.96 MB, 3.4 s
+round  11: 28/28 updates, mean F1 0.4454, worst 0.2207, 2.96 MB, 3.4 s
+round  12: 28/28 updates, mean F1 0.448, worst 0.225, 2.96 MB, 3.7 s
+round  13: 28/28 updates, mean F1 0.4491, worst 0.2274, 2.96 MB, 3.7 s
+round  14: 28/28 updates, mean F1 0.4524, worst 0.2282, 2.96 MB, 3.4 s
+round  15: 28/28 updates, mean F1 0.4564, worst 0.2275, 2.96 MB, 3.7 s
+round  16: 28/28 updates, mean F1 0.4576, worst 0.2276, 2.96 MB, 3.3 s
+round  17: 28/28 updates, mean F1 0.4597, worst 0.225, 2.96 MB, 3.5 s
+round  18: 28/28 updates, mean F1 0.4602, worst 0.2265, 2.96 MB, 3.3 s
+round  19: 28/28 updates, mean F1 0.4619, worst 0.227, 2.96 MB, 3.4 s
+round  20: 28/28 updates, mean F1 0.4615, worst 0.2268, 2.96 MB, 3.4 s
+round  21: 28/28 updates, mean F1 0.4645, worst 0.2266, 2.96 MB, 3.5 s
+round  22: 28/28 updates, mean F1 0.4638, worst 0.2309, 2.96 MB, 2.4 s
+round  23: 28/28 updates, mean F1 0.4635, worst 0.229, 2.96 MB, 3.5 s
+round  24: 28/28 updates, mean F1 0.465, worst 0.2314, 2.96 MB, 3.6 s
+round  25: 28/28 updates, mean F1 0.4647, worst 0.2238, 2.96 MB, 3.6 s
+round  26: 28/28 updates, mean F1 0.4649, worst 0.2252, 2.96 MB, 3.5 s
+round  27: 28/28 updates, mean F1 0.4649, worst 0.225, 2.96 MB, 3.3 s
+round  28: 28/28 updates, mean F1 0.4671, worst 0.2249, 2.96 MB, 3.6 s
+round  29: 28/28 updates, mean F1 0.4677, worst 0.229, 2.96 MB, 3.3 s
+round  30: 28/28 updates, mean F1 0.4699, worst 0.2265, 2.96 MB, 3.6 s
+round  31: 28/28 updates, mean F1 0.4697, worst 0.2289, 2.96 MB, 3.4 s
+round  32: 28/28 updates, mean F1 0.4686, worst 0.2188, 2.96 MB, 3.6 s
+round  33: 28/28 updates, mean F1 0.4689, worst 0.2202, 2.96 MB, 3.3 s
+round  34: 28/28 updates, mean F1 0.4715, worst 0.2223, 2.96 MB, 3.2 s
+round  35: 28/28 updates, mean F1 0.4708, worst 0.2312, 2.96 MB, 1.5 s
+round  36: 28/28 updates, mean F1 0.4715, worst 0.2297, 2.96 MB, 3.4 s
+round  37: 28/28 updates, mean F1 0.4718, worst 0.2297, 2.96 MB, 3.6 s
+round  38: 28/28 updates, mean F1 0.471, worst 0.2306, 2.96 MB, 3.1 s
+round  39: 28/28 updates, mean F1 0.4729, worst 0.2319, 2.96 MB, 3.4 s
+round  40: 28/28 updates, mean F1 0.4745, worst 0.227, 2.96 MB, 3.5 s
+round  41: 28/28 updates, mean F1 0.4732, worst 0.2316, 2.96 MB, 3.1 s
+round  42: 28/28 updates, mean F1 0.4723, worst 0.2316, 2.96 MB, 3.3 s
+round  43: 28/28 updates, mean F1 0.4725, worst 0.2318, 2.96 MB, 3.4 s
+round  44: 28/28 updates, mean F1 0.474, worst 0.2309, 2.96 MB, 3.4 s
+round  45: 28/28 updates, mean F1 0.4732, worst 0.232, 2.96 MB, 2.1 s
+round  46: 28/28 updates, mean F1 0.4753, worst 0.2365, 2.96 MB, 3.4 s
+round  47: 28/28 updates, mean F1 0.4734, worst 0.2325, 2.96 MB, 3.3 s
+round  48: 28/28 updates, mean F1 0.4729, worst 0.2355, 2.96 MB, 3.5 s
+round  49: 28/28 updates, mean F1 0.473, worst 0.2342, 2.96 MB, 3.3 s
+round  50: 28/28 updates, mean F1 0.4732, worst 0.2348, 2.96 MB, 3.3 s
+round  51: 28/28 updates, mean F1 0.4732, worst 0.2406, 2.96 MB, 3.4 s
+round  52: 28/28 updates, mean F1 0.4724, worst 0.2322, 2.96 MB, 3.4 s
+round  53: 28/28 updates, mean F1 0.4737, worst 0.241, 2.96 MB, 3.4 s
+round  54: 28/28 updates, mean F1 0.4747, worst 0.2418, 2.96 MB, 1.5 s
+round  55: 28/28 updates, mean F1 0.4737, worst 0.2371, 2.96 MB, 3.4 s
+round  56: 28/28 updates, mean F1 0.4745, worst 0.2339, 2.96 MB, 3.2 s
+round  57: 28/28 updates, mean F1 0.4736, worst 0.2379, 2.96 MB, 3.4 s
+round  58: 28/28 updates, mean F1 0.4744, worst 0.2369, 2.96 MB, 3.4 s
+round  59: 28/28 updates, mean F1 0.4742, worst 0.2378, 2.96 MB, 3.4 s
+round  60: 28/28 updates, mean F1 0.4743, worst 0.2343, 2.96 MB, 3.4 s
+final model: mean macro-F1 0.475, worst home 0.247 over 28 homes
+Written to /mnt/d/Code/SU/PROJECTS/DUC/results/harness/all28_fedavg
+all28_prox0.1: 28 of 28 gateways online
+round   1: 28/28 updates, mean F1 0.026, worst 0.0025, 2.96 MB, 3.1 s
+round   2: 28/28 updates, mean F1 0.2867, worst 0.1358, 2.96 MB, 3.2 s
+round   3: 28/28 updates, mean F1 0.3218, worst 0.1586, 2.96 MB, 3.4 s
+round   4: 28/28 updates, mean F1 0.3759, worst 0.2182, 2.96 MB, 1.5 s
+round   5: 28/28 updates, mean F1 0.4037, worst 0.2265, 2.96 MB, 3.3 s
+round   6: 28/28 updates, mean F1 0.4119, worst 0.2178, 2.96 MB, 3.2 s
+round   7: 28/28 updates, mean F1 0.4191, worst 0.2233, 2.96 MB, 3.2 s
+round   8: 28/28 updates, mean F1 0.4235, worst 0.2284, 2.96 MB, 3.4 s
+round   9: 28/28 updates, mean F1 0.4284, worst 0.2174, 2.96 MB, 3.5 s
+round  10: 28/28 updates, mean F1 0.4309, worst 0.2213, 2.96 MB, 3.3 s
+round  11: 28/28 updates, mean F1 0.4318, worst 0.2184, 2.96 MB, 3.3 s
+round  12: 28/28 updates, mean F1 0.4337, worst 0.2284, 2.96 MB, 3.8 s
+round  13: 28/28 updates, mean F1 0.4339, worst 0.2284, 2.96 MB, 1.7 s
+round  14: 28/28 updates, mean F1 0.4347, worst 0.2257, 2.96 MB, 3.4 s
+round  15: 28/28 updates, mean F1 0.436, worst 0.2254, 2.96 MB, 3.5 s
+round  16: 28/28 updates, mean F1 0.4368, worst 0.2257, 2.96 MB, 3.2 s
+round  17: 28/28 updates, mean F1 0.4383, worst 0.2257, 2.96 MB, 3.6 s
+round  18: 28/28 updates, mean F1 0.4421, worst 0.2253, 2.96 MB, 3.3 s
+round  19: 28/28 updates, mean F1 0.444, worst 0.2248, 2.96 MB, 3.3 s
+round  20: 28/28 updates, mean F1 0.4455, worst 0.2255, 2.96 MB, 3.3 s
+round  21: 28/28 updates, mean F1 0.45, worst 0.2256, 2.96 MB, 3.5 s
+round  22: 28/28 updates, mean F1 0.4481, worst 0.225, 2.96 MB, 3.2 s
+round  23: 28/28 updates, mean F1 0.4501, worst 0.2239, 2.96 MB, 1.9 s
+round  24: 28/28 updates, mean F1 0.4505, worst 0.2245, 2.96 MB, 3.3 s
+round  25: 28/28 updates, mean F1 0.4518, worst 0.2246, 2.96 MB, 3.4 s
+round  26: 28/28 updates, mean F1 0.4534, worst 0.2268, 2.96 MB, 3.4 s
+round  27: 28/28 updates, mean F1 0.4533, worst 0.2238, 2.96 MB, 3.6 s
+round  28: 28/28 updates, mean F1 0.4554, worst 0.2236, 2.96 MB, 3.1 s
+round  29: 28/28 updates, mean F1 0.4572, worst 0.2279, 2.96 MB, 3.4 s
+round  30: 28/28 updates, mean F1 0.4587, worst 0.2245, 2.96 MB, 3.3 s
+round  31: 28/28 updates, mean F1 0.459, worst 0.2248, 2.96 MB, 3.3 s
+round  32: 28/28 updates, mean F1 0.4587, worst 0.2235, 2.96 MB, 3.6 s
+round  33: 28/28 updates, mean F1 0.4599, worst 0.2241, 2.96 MB, 2.9 s
+round  34: 28/28 updates, mean F1 0.4617, worst 0.2259, 2.96 MB, 3.5 s
+round  35: 28/28 updates, mean F1 0.4612, worst 0.2236, 2.96 MB, 3.5 s
+round  36: 28/28 updates, mean F1 0.4621, worst 0.2232, 2.96 MB, 3.4 s
+round  37: 28/28 updates, mean F1 0.4618, worst 0.2241, 2.96 MB, 3.6 s
+round  38: 28/28 updates, mean F1 0.4617, worst 0.2234, 2.96 MB, 3.6 s
+round  39: 28/28 updates, mean F1 0.4623, worst 0.2181, 2.96 MB, 3.4 s
+round  40: 28/28 updates, mean F1 0.4635, worst 0.2176, 2.96 MB, 3.4 s
+round  41: 28/28 updates, mean F1 0.4613, worst 0.2203, 2.96 MB, 3.3 s
+round  42: 28/28 updates, mean F1 0.4622, worst 0.2309, 2.96 MB, 3.4 s
+round  43: 28/28 updates, mean F1 0.4619, worst 0.2283, 2.96 MB, 3.5 s
+round  44: 28/28 updates, mean F1 0.4634, worst 0.2212, 2.96 MB, 3.2 s
+round  45: 28/28 updates, mean F1 0.4639, worst 0.2281, 2.96 MB, 3.6 s
+round  46: 28/28 updates, mean F1 0.464, worst 0.219, 2.96 MB, 3.4 s
+round  47: 28/28 updates, mean F1 0.464, worst 0.2299, 2.96 MB, 3.5 s
+round  48: 28/28 updates, mean F1 0.4637, worst 0.2193, 2.96 MB, 3.5 s
+round  49: 28/28 updates, mean F1 0.4632, worst 0.2189, 2.96 MB, 3.2 s
+round  50: 28/28 updates, mean F1 0.4642, worst 0.2196, 2.96 MB, 2.9 s
+round  51: 28/28 updates, mean F1 0.4644, worst 0.2198, 2.96 MB, 3.3 s
+round  52: 28/28 updates, mean F1 0.4639, worst 0.228, 2.96 MB, 3.4 s
+round  53: 28/28 updates, mean F1 0.4639, worst 0.2221, 2.96 MB, 3.3 s
+round  54: 28/28 updates, mean F1 0.4645, worst 0.2192, 2.96 MB, 3.4 s
+round  55: 28/28 updates, mean F1 0.4647, worst 0.222, 2.96 MB, 3.4 s
+round  56: 28/28 updates, mean F1 0.465, worst 0.2227, 2.96 MB, 3.3 s
+round  57: 28/28 updates, mean F1 0.4638, worst 0.2261, 2.96 MB, 3.3 s
+round  58: 28/28 updates, mean F1 0.4646, worst 0.23, 2.96 MB, 3.5 s
+round  59: 28/28 updates, mean F1 0.4628, worst 0.2274, 2.96 MB, 3.4 s
+round  60: 28/28 updates, mean F1 0.4638, worst 0.2259, 2.96 MB, 3.2 s
+final model: mean macro-F1 0.467, worst home 0.218 over 28 homes
+Written to /mnt/d/Code/SU/PROJECTS/DUC/results/harness/all28_prox0.1
+Written to /mnt/d/Code/SU/PROJECTS/DUC/results/harness/all28_fedavg
+brokers stopped
+Thu Nov 12 17:34:37 CET 2026

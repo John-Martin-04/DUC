@@ -1,0 +1,5 @@
+numpy==1.25.2
+pandas>=2.0,<2.3
+pyarrow>=14,<18
+paho-mqtt==2.1.0
+tensorflow==2.14.1

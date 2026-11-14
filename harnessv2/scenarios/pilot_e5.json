@@ -1,0 +1,14 @@
+{
+  "name": "pilot_e5",
+  "homes": null,
+  "rounds": 60,
+  "fraction": 1.0,
+  "local_epochs": 5,
+  "batch_size": 128,
+  "client_lr": 0.05,
+  "deadline_s": 120,
+  "min_clients": 2,
+  "max_retries": 2,
+  "dropout_p": 0.0,
+  "seed": 0
+}
