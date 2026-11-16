@@ -27,7 +27,6 @@ Thumbs.db
 results/**/payloads/
 results/**/checkpoint.npz
 results/**/state.json
-archive
 # Local databases and archives
 *.sqlite
 *.zip
