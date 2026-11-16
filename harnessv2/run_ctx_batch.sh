@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Runs a list of federated scenarios one after another against the gateways
-# that are already online (start them first with your run_all28.sh setup).
+# that are already online (start them first, as in README step 1 of Full runs).
 #   bash run_ctx_batch.sh ../data/processed/cap60_noother_ctx scenarios/all28_ctx_s1.json [more...]
 # Each run writes results/harness/<name>/ and is resumable: re-run with --resume
 # by hand if a run stops, since the batch stops on the first failure.
