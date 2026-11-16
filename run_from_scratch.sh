@@ -149,7 +149,7 @@ write_config_end() {
 [ -d "$ROOT/.venv" ] || { echo "No .venv at $ROOT. Create it first (see audit/README.md)."; exit 1; }
 source "$ROOT/.venv/bin/activate"
 [ -f "$ROOT/harnessv2/duc.env" ] || { echo "Missing harnessv2/duc.env (ports, not in Git)."; exit 1; }
-[ -n "$(ls -A "$ROOT/data/raw/uci" 2>/dev/null)" ] || { echo "Missing raw UCI files in data/raw/uci."; exit 1; }
+[ -n "$(ls -A "$ROOT/audit/data/raw/uci" 2>/dev/null)" ] || { echo "Missing raw UCI files in audit/data/raw/uci."; exit 1; }
 for f in harnessv2/collect_results.py harnessv2/plot_results.py harnessv2/add_personalisation.py \
          harnessv2/scenarios/all28_ctx_pers.json harnessv2/scenarios/all28_fedavg.json \
          harnessv2/scenarios/all28_prox0.1.json harnessv2/scenarios/all28_ctx_r150.json; do
@@ -165,7 +165,7 @@ echo
 run_stage "preflight: patch and imports" "cd \"$ROOT/harnessv2\" && (grep -q personalise coordinator.py || python add_personalisation.py) && python -c 'import tensorflow, tensorflow_federated, matplotlib; print(\"TF\", tensorflow.__version__, \"TFF\", tensorflow_federated.__version__)'"
 
 # ---------------------------------------------------------------- 2. audit
-run_stage "audit: parse raw files"   "cd \"$ROOT/audit\" && python scripts/parse_casas.py --glob '../data/raw/uci/**/*.ann.txt'"
+run_stage "audit: parse raw files"   "cd \"$ROOT/audit\" && python scripts/parse_casas.py --glob 'data/raw/uci/**/*.ann.txt'"
 run_stage "audit: profile homes"     "cd \"$ROOT/audit\" && python scripts/profile_homes.py"
 run_stage "audit: inventory"         "cd \"$ROOT/audit\" && python scripts/inventory.py"
 run_stage "audit: feasibility"       "cd \"$ROOT/audit\" && python scripts/feasibility.py && python scripts/feasibility.py --drop-other"
