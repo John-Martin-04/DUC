@@ -63,7 +63,15 @@ pid_file {dir}/{name}.pid
 
 
 def stop() -> None:
+    """Stop our brokers, including any left over from an interrupted run.
+
+    Matches the mosquitto processes by their config file path, so it works even
+    when the PID files are missing. The system broker is never matched.
+    """
     for name in ("home", "fed"):
+        conf = H.BROKER_DIR / f"{name}.conf"
+        subprocess.run(["pkill", "-f", f"mosquitto -c {conf}"], stdout=subprocess.DEVNULL,
+                       stderr=subprocess.DEVNULL)
         pid = H.BROKER_DIR / f"{name}.pid"
         if pid.exists():
             try:
@@ -71,6 +79,7 @@ def stop() -> None:
             except (ProcessLookupError, ValueError):
                 pass
             pid.unlink(missing_ok=True)
+    time.sleep(1)
 
 
 def wait_port(host: str, port: int, timeout: float = 10) -> bool:
