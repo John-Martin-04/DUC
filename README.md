@@ -45,26 +45,26 @@ Run these from `harnessv2/` unless noted.
 
 ## Full runs
 
-1. Start the brokers and the gateways, then run the replay. Use the dataset in the command, and the same homes in every step:
-   ```
-   HOMES=$(python -c "import json; print(' '.join(json.load(open('../data/processed/cap60_noother_ctx/schema.json'))['homes']))")
-   python brokers.py start --homes $HOMES
-   python gateway.py --dataset ../data/processed/cap60_noother_ctx --homes $HOMES     # leave running
-   python replay.py --homes $HOMES --speed 0                                          # in another terminal
-   ```
-2. Run one federated scenario, or a batch:
-   ```
-   bash run_ctx_batch.sh ../data/processed/cap60_noother_ctx scenarios/all28_ctx.json
-   ```
-3. Run the whole sweep, which includes the baselines, the fine-tuning sweep, the ablation, and the charts:
-   ```
-   bash run_full_sweep.sh 2>&1 | tee -a ../all_runs.log
-   ```
-4. Collect and plot the results at any time:
-   ```
-   python collect_results.py
-   python plot_results.py
-   ```
+The whole pipeline, from the raw CASAS files to the charts, is one script at the root. Run it from the DUC folder:
+
+```
+bash run_from_scratch.sh
+```
+
+It runs 35 stages: the checks, the audit, the datasets, the baselines, the fine-tuning sweep, the federated runs (brokers, gateways, replay and coordinator, with a recorder for each run), and the results and charts. The screen shows a progress bar and the current stage.
+
+To run one federated scenario, or a batch, against gateways that are already running:
+
+```
+bash run_ctx_batch.sh ../data/processed/cap60_noother_ctx scenarios/all28_ctx.json
+```
+
+Collect and plot the results at any time:
+
+```
+python collect_results.py
+python plot_results.py
+```
 
 ## Rules to remember
 
@@ -78,3 +78,4 @@ Run these from `harnessv2/` unless noted.
 - `results/index.csv`: one row per federated run and per baseline setup
 - `results/curves.csv`: the score at every round
 - `results/plots/`: the charts
+- `results/run_configs/<timestamp>/`: one folder per full run, with `config.txt` (git commit, software versions, every settings file, every scenario used, dataset schemas and stage timings), one log per stage, and `stages.log`
