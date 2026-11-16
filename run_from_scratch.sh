@@ -11,7 +11,11 @@
 #   stages.log     one line per stage as it finishes
 #
 # Stages: preflight, audit, datasets, baselines, fine-tune sweep, federated runs, results.
+#
+# To restart after an interruption and skip the stages that already finished:
+#   RESUME_DIR=results/run_configs/<old timestamp> bash run_from_scratch.sh
 set -euo pipefail
+trap 'echo "ERROR: stopped at line $LINENO: $BASH_COMMAND" >&2' ERR
 
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 export TF_CPP_MIN_LOG_LEVEL=2 PYTHONUNBUFFERED=1
@@ -37,13 +41,19 @@ homes_of() { python -c "import json,sys; print(' '.join(json.load(open(sys.argv[
 
 run_stage() {  # run_stage "label" "shell command"
   local label="$1" cmd="$2"
+  if [ -n "${RESUME_DIR:-}" ] && grep -qF "$label | ok |" "$RESUME_DIR/stages.log" 2>/dev/null; then
+    DONE=$((DONE + 1))
+    printf "\r\033[K%s  %2d/%d  %-28s skipped (done in %s)\n" "$(bar "$DONE" "$TOTAL")" "$DONE" "$TOTAL" "${label:0:28}" "$(basename "$RESUME_DIR")"
+    printf "%s | skipped | 0s | %s\n" "$label" "$cmd" >> "$STAGES_LOG"
+    return 0
+  fi
   local slug; slug="$(echo "$label" | tr -c 'A-Za-z0-9' '_' | cut -c1-50)"
   local log; log="$RUN_DIR/$(printf '%02d' $((DONE + 1)))_${slug}.log"
   local start; start=$(date +%s)
   bash -c "$cmd" > "$log" 2>&1 &
   local pid=$! status=0
   while kill -0 "$pid" 2>/dev/null; do
-    local last; last="$(tail -n 1 "$log" 2>/dev/null | tr -d '\r' | cut -c1-50)"
+    local last=""; last="$(tail -n 1 "$log" 2>/dev/null | tr -d '\r' | cut -c1-50)" || true
     printf "\r\033[K%s  %2d/%d  %-28s %5ds  %s" "$(bar "$DONE" "$TOTAL")" "$((DONE + 1))" "$TOTAL" \
       "${label:0:28}" "$(( $(date +%s) - start ))" "$last"
     sleep 1
