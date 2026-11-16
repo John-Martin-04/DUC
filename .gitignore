@@ -36,3 +36,6 @@ results/**/state.json
 
 # Regenerated listing from the audit's inventory script
 audit/mappings/sensor_inventory_latest.csv
+
+# Run outputs at the top level (archive/results stays in git)
+/results/
