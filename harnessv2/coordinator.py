@@ -40,7 +40,7 @@ from common import build_model, set_seed
 
 DEFAULTS = {"rounds": 20, "fraction": 1.0, "local_epochs": 1, "batch_size": 128, "client_lr": 0.05,
             "deadline_s": 120, "min_clients": 2, "max_retries": 2, "dropout_p": 0.0, "seed": 0, "mu": 0.0, "class_weight": False,
-            "homes": None}
+            "homes": None, "personalise_epochs": 0, "personalise_div": 3.0}
 
 
 def main() -> None:
@@ -121,7 +121,9 @@ def main() -> None:
                           "batch_size": sc["batch_size"], "client_lr": sc["client_lr"],
                           "dropout_p": sc["dropout_p"], "seed": sc["seed"], "mu": sc["mu"],
                           "class_weight": sc["class_weight"],
-                          "deadline_s": sc["deadline_s"]}, weights)
+                          "deadline_s": sc["deadline_s"],
+                          "personalise_epochs": sc["personalise_epochs"],
+                          "personalise_div": sc["personalise_div"]}, weights)
         c.publish(H.T_GLOBAL, payload, qos=1, retain=True).wait_for_publish(timeout=30)
         return len(payload)
 
@@ -204,6 +206,17 @@ def main() -> None:
     if f1:
         print(f"final model: mean macro-F1 {np.mean(f1):.3f}, worst home {min(f1):.3f} "
               f"over {len(f1)} homes")
+    # Local fine-tuning (optional): each home fine-tunes the final shared model on its own
+    # training windows and reports a score. Only scores come back, no weights.
+    if sc["personalise_epochs"] > 0:
+        p = final + 1
+        avail = sorted(online & set(homes))
+        publish(p, 0, "personalise", [])
+        _, pm, _, _ = collect(p, 0, [], set(avail), time.time() + sc["deadline_s"])
+        pf = record_metrics(p, pm)
+        if pf:
+            print(f"local fine-tuning ({sc['personalise_epochs']} epochs): mean macro-F1 "
+                  f"{np.mean(pf):.3f}, worst home {min(pf):.3f} over {len(pf)} homes", flush=True)
     print(f"Written to {out}")
     c.loop_stop()
     c.disconnect()

@@ -244,6 +244,27 @@ class Gateway:
             self.frame, self.frame_n = load_frame(self.db, self.home, self.schema), n
         return self.frame
 
+    def personalise(self, header: dict, weights: list, df) -> None:
+        """Local fine-tuning: train a copy of the final shared model on this home's training
+        windows and report its test score. The weights are not sent anywhere."""
+        rnd = header["round"]
+        self.model.set_weights(weights)
+        self.prox_mu.assign(0.0)
+        x_tr, y_tr = xy(df[df.split == "train"], self.schema)
+        x_te, y_te = xy(df[df.split == "test"], self.schema)
+        if len(y_tr) and header.get("personalise_epochs", 0) > 0:
+            set_seed(header["seed"] + rnd)
+            self.model.optimizer.learning_rate.assign(header["client_lr"] / header.get("personalise_div", 3.0))
+            self.model.fit(x_tr, y_tr, epochs=header["personalise_epochs"],
+                           batch_size=header["batch_size"], verbose=0)
+        metrics = {"v": M.VERSION, "run": header["run"], "round": rnd, "home": self.home,
+                   "n_test": int(len(y_te)), "classes_in_test": int(len(np.unique(y_te)))}
+        if len(y_te):
+            pred = self.model.predict(x_te, batch_size=4096, verbose=0).argmax(axis=1)
+            metrics.update(macro_f1=macro_f1(y_te, pred), accuracy=float(np.mean(pred == y_te)))
+        self.fed_c.publish(H.T_METRICS.format(round=rnd, home=self.home), json.dumps(metrics), qos=1)
+        self.model.set_weights(weights)
+
     def on_global(self, payload: bytes) -> None:
         header, weights = M.unpack(payload)
         job = (header["run"], header["round"], header.get("attempt", 0), header["phase"])
@@ -268,6 +289,9 @@ class Gateway:
         df = self.dataset()
         rnd = header["round"]
 
+        if header["phase"] == "personalise":
+            self.personalise(header, weights, df)
+            return
         x_te, y_te = xy(df[df.split == "test"], self.schema)
         metrics = {"v": M.VERSION, "run": header["run"], "round": rnd, "home": self.home,
                    "n_test": int(len(y_te)), "classes_in_test": int(len(np.unique(y_te)))}

@@ -8,16 +8,16 @@ Kept if present in at least 50% of homes.
 
 | class | homes_with_class | share_of_homes | total_test_windows | keep_class |
 |---|---|---|---|---|
-| eat | 28 | 1.0 | 4293 | True |
-| personal_hygiene | 28 | 1.0 | 25355 | True |
-| relax | 28 | 1.0 | 15710 | True |
-| rest | 28 | 1.0 | 15045 | True |
-| chores | 27 | 0.96 | 6737 | True |
-| cook | 27 | 0.96 | 9758 | True |
-| social | 27 | 0.96 | 14165 | True |
-| enter_home | 25 | 0.89 | 1380 | True |
-| leave_home | 25 | 0.89 | 1558 | True |
-| work | 25 | 0.89 | 12839 | True |
+| eat | 29 | 0.97 | 4366 | True |
+| personal_hygiene | 29 | 0.97 | 25730 | True |
+| relax | 29 | 0.97 | 15809 | True |
+| rest | 29 | 0.97 | 15069 | True |
+| chores | 28 | 0.93 | 6832 | True |
+| cook | 28 | 0.93 | 9969 | True |
+| social | 28 | 0.93 | 14184 | True |
+| enter_home | 27 | 0.9 | 1404 | True |
+| leave_home | 26 | 0.87 | 1582 | True |
+| work | 26 | 0.87 | 12919 | True |
 
 ## Homes
 
@@ -45,8 +45,10 @@ A home passes with at least 5 kept classes in its test period (and the day and c
 | csh118 | 3445 | 1027 | 8 | enter_home, leave_home | True | 20 | 1.0 |
 | csh119 | 3341 | 982 | 10 |  | True | 31 | 1.0 |
 | csh120 | 11196 | 3087 | 10 |  | True | 64 | 1.0 |
+| csh121 | 3279 | 976 | 8 | social, leave_home | False | 11 | 1.0 |
 | csh122 | 4201 | 1135 | 9 | enter_home | True | 30 | 1.0 |
 | csh123 | 3896 | 1125 | 9 | work | True | 31 | 1.0 |
+| csh124 | 577 | 48 | 3 | eat, personal_hygiene, relax, rest, chores, cook, work | False | 61 | 1.0 |
 | csh125 | 6856 | 1990 | 10 |  | True | 61 | 1.0 |
 | csh126 | 2678 | 760 | 9 | social | True | 37 | 1.0 |
 | csh127 | 3315 | 933 | 9 | work | True | 27 | 1.0 |

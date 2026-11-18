@@ -1,0 +1,14 @@
+{
+ "name": "all28_ctx5_s4",
+ "rounds": 60,
+ "fraction": 1.0,
+ "local_epochs": 5,
+ "batch_size": 128,
+ "client_lr": 0.05,
+ "deadline_s": 600,
+ "min_clients": 2,
+ "max_retries": 2,
+ "dropout_p": 0.0,
+ "seed": 4,
+ "mu": 0.0
+}

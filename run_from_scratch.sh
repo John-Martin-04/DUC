@@ -41,7 +41,8 @@ homes_of() { python -c "import json,sys; print(' '.join(json.load(open(sys.argv[
 
 run_stage() {  # run_stage "label" "shell command"
   local label="$1" cmd="$2"
-  if [ -n "${RESUME_DIR:-}" ] && grep -qF "$label | ok |" "$RESUME_DIR/stages.log" 2>/dev/null; then
+  # Never skip "brokers start": its processes do not survive the old run, so later stages would find no brokers.
+  if [ -n "${RESUME_DIR:-}" ] && [ "${label#brokers start}" = "$label" ] && grep -qF "$label | ok |" "$RESUME_DIR/stages.log" 2>/dev/null; then
     DONE=$((DONE + 1))
     printf "\r\033[K%s  %2d/%d  %-28s skipped (done in %s)\n" "$(bar "$DONE" "$TOTAL")" "$DONE" "$TOTAL" "${label:0:28}" "$(basename "$RESUME_DIR")"
     printf "%s | skipped | 0s | %s\n" "$label" "$cmd" >> "$STAGES_LOG"
