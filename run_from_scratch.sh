@@ -217,7 +217,7 @@ start_gateways() {  # start_gateways <dataset dir>: background gateways, one per
 # Otherwise the gateway stores are empty and the first round fails.
 replay_stage() {  # replay_stage <dataset dir>
   local ds="$1" homes; homes="$(homes_of "$ds")"
-  run_stage "replay and verify $(basename "$ds")" "$HARN sleep 15 && python replay.py --homes $homes --speed 0 && python verify_windows.py --dataset \"$ds\" --homes $homes --wait"
+  run_stage "replay and verify $(basename "$ds")" "$HARN sleep 15 && python replay.py --homes $homes --speed 0 --max-rate ${MAX_RATE:-10000} && python verify_windows.py --dataset \"$ds\" --homes $homes --wait"
 }
 
 start_gateways "$PROC/cap60_noother_ctx"

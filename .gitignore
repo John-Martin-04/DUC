@@ -39,3 +39,8 @@ audit/mappings/sensor_inventory_latest.csv
 
 # Run outputs at the top level (archive/results stays in git)
 /results/
+
+# Debug captures from earlier runs
+/run_console.txt
+/tmux_out.txt
+/trace.txt

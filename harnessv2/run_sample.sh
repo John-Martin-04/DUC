@@ -17,7 +17,7 @@ python gateway.py --dataset $DATA --homes $HOMES & GW=$!
 python recorder.py --run sample & REC=$!
 trap 'kill $GW $REC 2>/dev/null || true; wait 2>/dev/null || true; python brokers.py stop' EXIT
 
-python replay.py --homes $HOMES --speed 0
+python replay.py --homes $HOMES --speed 0 --max-rate ${MAX_RATE:-10000}
 python verify_windows.py --dataset $DATA --homes $HOMES --wait 120
 python coordinator.py --dataset $DATA --scenario scenarios/sample.json
 kill $REC; wait $REC 2>/dev/null || true

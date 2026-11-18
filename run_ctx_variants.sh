@@ -31,7 +31,7 @@ for SET in cap60_noother_ctx5 cap60_noother_ctx15; do
   pkill -f gateway.py 2>/dev/null || true
   python gateway.py --dataset "$DS" --homes $HOMES > "$OUT/gateways_$SET.log" 2>&1 &
   sleep 15
-  python replay.py --homes $HOMES --speed 0 2>&1 | tee "$OUT/replay_$SET.log"
+  python replay.py --homes $HOMES --speed 0 --max-rate ${MAX_RATE:-10000} 2>&1 | tee "$OUT/replay_$SET.log"
   python verify_windows.py --dataset "$DS" --homes $HOMES --wait 2>&1 | tee "$OUT/verify_$SET.log"
 
   for SEED in 0 1 2 3 4; do
