@@ -81,6 +81,8 @@ def main() -> None:
     ap.add_argument("--hidden", nargs="+", type=int,
                     help="hidden layer sizes for a capacity check, e.g. --hidden 512 256; "
                          "results go to a separate folder")
+    ap.add_argument("--lr", type=float, default=None, help="learning rate; results go to a separate folder")
+    ap.add_argument("--batch-size", type=int, default=None, help="batch size; results go to a separate folder")
     args = ap.parse_args()
 
     schema, data = load_dataset(args.data, args.homes)
@@ -91,6 +93,12 @@ def main() -> None:
     tag = "_cw" if args.class_weight else ""
     if args.ft_div != 3.0:
         tag += f"_ftdiv{args.ft_div:g}"
+    if args.lr is not None:
+        S.LEARNING_RATE = args.lr                 # fine-tuning uses this divided by --ft-div
+        tag += f"_lr{args.lr:g}"
+    if args.batch_size is not None:
+        S.BATCH_SIZE = args.batch_size
+        tag += f"_bs{args.batch_size}"
     if args.hidden:
         S.HIDDEN_UNITS = tuple(args.hidden)
         tag += "_hidden" + "x".join(map(str, args.hidden))
