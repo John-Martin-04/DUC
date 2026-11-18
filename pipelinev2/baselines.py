@@ -57,6 +57,14 @@ def evaluate(model, x, y, setup: str) -> tuple[float, float]:
     return macro_f1(y, pred), float(np.mean(pred == y))
 
 
+def score(model, x, y) -> tuple[float, float]:
+    """Macro-F1 and accuracy. Unlike evaluate(), it does not store predictions: used for validation."""
+    if not len(y):
+        return float("nan"), float("nan")
+    pred = model.predict(x, batch_size=4096, verbose=0).argmax(axis=1)
+    return macro_f1(y, pred), float(np.mean(pred == y))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -105,9 +113,10 @@ def main() -> None:
                 (x_tr, y_tr), (x_va, y_va), (x_te, y_te) = d["train"], d["val"], d["test"]
                 epochs = fit(model, x_tr, y_tr, x_va, y_va, args.epochs, args.verbose)
                 f1, acc = evaluate(model, x_te, y_te, "local")
+                vf1, vacc = score(model, x_va, y_va)
                 rows.append(dict(setup="local", seed=seed, home=h, n_train=len(y_tr), n_test=len(y_te),
                                  classes_in_test=len(np.unique(y_te)), macro_f1=f1, accuracy=acc,
-                                 epochs=epochs))
+                                 val_macro_f1=vf1, val_accuracy=vacc, epochs=epochs))
             print(f"seed {seed} local: {time.time() - t0:.0f} s")
 
         if "central" in args.setups or "finetune" in args.setups:
@@ -123,9 +132,11 @@ def main() -> None:
             for h, d in split.items():
                 x_te, y_te = d["test"]
                 f1, acc = evaluate(model, x_te, y_te, "central")
+                vf1, vacc = score(model, *d["val"])
                 rows.append(dict(setup="central", seed=seed, home=h, n_train=len(d["train"][1]),
                                  n_test=len(y_te), classes_in_test=len(np.unique(y_te)),
-                                 macro_f1=f1, accuracy=acc, epochs=epochs))
+                                 macro_f1=f1, accuracy=acc, val_macro_f1=vf1, val_accuracy=vacc,
+                                 epochs=epochs))
             print(f"seed {seed} central: {time.time() - t0:.0f} s, {epochs} epochs")
 
         if "finetune" in args.setups:
@@ -140,9 +151,10 @@ def main() -> None:
                 (x_tr, y_tr), (x_va, y_va), (x_te, y_te) = d["train"], d["val"], d["test"]
                 epochs = fit(ft, x_tr, y_tr, x_va, y_va, args.epochs, args.verbose)
                 f1, acc = evaluate(ft, x_te, y_te, "finetune")
+                vf1, vacc = score(ft, x_va, y_va)
                 rows.append(dict(setup="finetune", seed=seed, home=h, n_train=len(y_tr), n_test=len(y_te),
                                  classes_in_test=len(np.unique(y_te)), macro_f1=f1, accuracy=acc,
-                                 epochs=epochs))
+                                 val_macro_f1=vf1, val_accuracy=vacc, epochs=epochs))
             print(f"seed {seed} finetune: {time.time() - t0:.0f} s")
 
     res = pd.DataFrame(rows)

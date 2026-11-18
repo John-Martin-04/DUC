@@ -244,6 +244,14 @@ class Gateway:
             self.frame, self.frame_n = load_frame(self.db, self.home, self.schema), n
         return self.frame
 
+    def add_val(self, df, metrics: dict) -> None:
+        """Validation scores, reported next to the test scores. Used to choose settings, never to report."""
+        x_va, y_va = xy(df[df.split == "val"], self.schema)
+        metrics["val_n"] = int(len(y_va))
+        if len(y_va):
+            pred = self.model.predict(x_va, batch_size=4096, verbose=0).argmax(axis=1)
+            metrics.update(val_macro_f1=macro_f1(y_va, pred), val_accuracy=float(np.mean(pred == y_va)))
+
     def personalise(self, header: dict, weights: list, df) -> None:
         """Local fine-tuning: train a copy of the final shared model on this home's training
         windows and report its test score. The weights are not sent anywhere."""
@@ -262,6 +270,7 @@ class Gateway:
         if len(y_te):
             pred = self.model.predict(x_te, batch_size=4096, verbose=0).argmax(axis=1)
             metrics.update(macro_f1=macro_f1(y_te, pred), accuracy=float(np.mean(pred == y_te)))
+        self.add_val(df, metrics)
         self.fed_c.publish(H.T_METRICS.format(round=rnd, home=self.home), json.dumps(metrics), qos=1)
         self.model.set_weights(weights)
 
@@ -298,6 +307,7 @@ class Gateway:
         if len(y_te):
             pred = self.model.predict(x_te, batch_size=4096, verbose=0).argmax(axis=1)
             metrics.update(macro_f1=macro_f1(y_te, pred), accuracy=float(np.mean(pred == y_te)))
+        self.add_val(df, metrics)
         self.fed_c.publish(H.T_METRICS.format(round=rnd, home=self.home), json.dumps(metrics), qos=1)
 
         if header["phase"] != "train" or self.home not in header["selected"]:

@@ -162,7 +162,9 @@ def main() -> None:
             m = metrics[h]
             append("metrics.csv", {"round": rnd, "home": h, "n_test": m["n_test"],
                                    "classes_in_test": m["classes_in_test"],
-                                   "macro_f1": m.get("macro_f1", ""), "accuracy": m.get("accuracy", "")})
+                                   "macro_f1": m.get("macro_f1", ""), "accuracy": m.get("accuracy", ""),
+                                   "val_macro_f1": m.get("val_macro_f1", ""),
+                                   "val_accuracy": m.get("val_accuracy", "")})
         return [m["macro_f1"] for m in metrics.values() if "macro_f1" in m]
 
     for rnd in range(start, sc["rounds"] + 1):

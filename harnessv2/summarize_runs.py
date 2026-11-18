@@ -24,9 +24,11 @@ for arg in sys.argv[1:]:
     final = int(r["round"].max())
     last = m[m["round"] == final].dropna(subset=["macro_f1"])
     mb = (r["down_bytes"].fillna(0) + r["up_bytes"].fillna(0)).sum() / 1e6
+    lastv = m[m["round"] == final]
+    vmean = round(lastv["val_macro_f1"].mean(), 4) if "val_macro_f1" in lastv and lastv["val_macro_f1"].notna().any() else ""
     rows.append(dict(run=name, rounds=final - 1, mean_f1=round(last.macro_f1.mean(), 4),
                      median_f1=round(last.macro_f1.median(), 4), worst_f1=round(last.macro_f1.min(), 4),
-                     homes=len(last), traffic_MB=round(mb, 1)))
+                     val_mean_f1=vmean, homes=len(last), traffic_MB=round(mb, 1)))
 df = pd.DataFrame(rows)
 print(df.to_string(index=False))
 if len(df) > 1:
